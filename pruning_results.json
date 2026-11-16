@@ -1,0 +1,325 @@
+{
+  "exact_certificate_leaf_count": 14,
+  "families": {
+    "attenuation": {
+      "class_disagreements": 0,
+      "exact": {
+        "best_fixed_matching_mean_budget": {
+          "accuracy": 0.4758633897697294,
+          "brier": 0.672924876393334,
+          "mean_reads": 1.6492
+        },
+        "certified_pruning": {
+          "accuracy": 0.47926811774019273,
+          "brier": 0.6775705497277948,
+          "mean_reads": 1.6492
+        },
+        "fixed_two_reads": {
+          "accuracy": 0.47926811774019273,
+          "brier": 0.6663524087200825,
+          "mean_reads": 2.0
+        }
+      },
+      "read_saving_fraction": 0.1754,
+      "simulation": {
+        "best_fixed_matching_mean_budget": {
+          "accuracy": 0.475128173828125,
+          "brier": 0.6721151134130705,
+          "mean_reads": 1.6485595703125
+        },
+        "certified_pruning": {
+          "accuracy": 0.48028564453125,
+          "brier": 0.679116332627723,
+          "mean_reads": 1.651153564453125
+        },
+        "fixed_two_reads": {
+          "accuracy": 0.48028564453125,
+          "brier": 0.6670526618894373,
+          "mean_reads": 2.0
+        }
+      }
+    },
+    "clock_drift": {
+      "class_disagreements": 0,
+      "exact": {
+        "best_fixed_matching_mean_budget": {
+          "accuracy": 0.5400918610056236,
+          "brier": 0.6169929610099603,
+          "mean_reads": 1.6492
+        },
+        "certified_pruning": {
+          "accuracy": 0.5471221863889077,
+          "brier": 0.618109973123077,
+          "mean_reads": 1.6492
+        },
+        "fixed_two_reads": {
+          "accuracy": 0.5471221863889077,
+          "brier": 0.6030766396854988,
+          "mean_reads": 2.0
+        }
+      },
+      "read_saving_fraction": 0.1754,
+      "simulation": {
+        "best_fixed_matching_mean_budget": {
+          "accuracy": 0.542236328125,
+          "brier": 0.6151744677272144,
+          "mean_reads": 1.6470947265625
+        },
+        "certified_pruning": {
+          "accuracy": 0.547515869140625,
+          "brier": 0.6165546070661589,
+          "mean_reads": 1.651611328125
+        },
+        "fixed_two_reads": {
+          "accuracy": 0.547515869140625,
+          "brier": 0.6023558275671432,
+          "mean_reads": 2.0
+        }
+      }
+    },
+    "guide_drift": {
+      "class_disagreements": 0,
+      "exact": {
+        "best_fixed_matching_mean_budget": {
+          "accuracy": 0.4317770555630584,
+          "brier": 0.7191988207935975,
+          "mean_reads": 1.6930499999999997
+        },
+        "certified_pruning": {
+          "accuracy": 0.43708799685464755,
+          "brier": 0.7242945438637235,
+          "mean_reads": 1.5834249999999999
+        },
+        "fixed_two_reads": {
+          "accuracy": 0.4370879968546475,
+          "brier": 0.7088902666832114,
+          "mean_reads": 1.9999999999999998
+        }
+      },
+      "read_saving_fraction": 0.20828750000000007,
+      "simulation": {
+        "best_fixed_matching_mean_budget": {
+          "accuracy": 0.43072509765625,
+          "brier": 0.7198115064010913,
+          "mean_reads": 1.69110107421875
+        },
+        "certified_pruning": {
+          "accuracy": 0.435272216796875,
+          "brier": 0.7245143457714379,
+          "mean_reads": 1.58709716796875
+        },
+        "fixed_two_reads": {
+          "accuracy": 0.435272216796875,
+          "brier": 0.7092202913536708,
+          "mean_reads": 2.0
+        }
+      }
+    },
+    "nominal": {
+      "class_disagreements": 0,
+      "exact": {
+        "best_fixed_matching_mean_budget": {
+          "accuracy": 0.5768159644570287,
+          "brier": 0.5701445647267063,
+          "mean_reads": 1.6492
+        },
+        "certified_pruning": {
+          "accuracy": 0.5836838870933942,
+          "brier": 0.5722778690831951,
+          "mean_reads": 1.6492
+        },
+        "fixed_two_reads": {
+          "accuracy": 0.5836838870933942,
+          "brier": 0.5547139273385103,
+          "mean_reads": 2.0
+        }
+      },
+      "read_saving_fraction": 0.1754,
+      "simulation": {
+        "best_fixed_matching_mean_budget": {
+          "accuracy": 0.57720947265625,
+          "brier": 0.570596988859045,
+          "mean_reads": 1.651031494140625
+        },
+        "certified_pruning": {
+          "accuracy": 0.585479736328125,
+          "brier": 0.5715339967253962,
+          "mean_reads": 1.647857666015625
+        },
+        "fixed_two_reads": {
+          "accuracy": 0.585479736328125,
+          "brier": 0.553690982153467,
+          "mean_reads": 2.0
+        }
+      }
+    },
+    "persistent_loss": {
+      "class_disagreements": 0,
+      "exact": {
+        "best_fixed_matching_mean_budget": {
+          "accuracy": 0.5600900134808845,
+          "brier": 0.5779583953077039,
+          "mean_reads": 1.6491999999999998
+        },
+        "certified_pruning": {
+          "accuracy": 0.5716481530857067,
+          "brier": 0.5766855309381417,
+          "mean_reads": 1.7222
+        },
+        "fixed_two_reads": {
+          "accuracy": 0.5716481530857067,
+          "brier": 0.5637179911646895,
+          "mean_reads": 2.0
+        }
+      },
+      "read_saving_fraction": 0.13890000000000002,
+      "simulation": {
+        "best_fixed_matching_mean_budget": {
+          "accuracy": 0.56298828125,
+          "brier": 0.5776616471698544,
+          "mean_reads": 1.6514892578125
+        },
+        "certified_pruning": {
+          "accuracy": 0.573394775390625,
+          "brier": 0.5768197484506057,
+          "mean_reads": 1.72332763671875
+        },
+        "fixed_two_reads": {
+          "accuracy": 0.573394775390625,
+          "brier": 0.5637128401684632,
+          "mean_reads": 2.0
+        }
+      }
+    },
+    "polarity_mixture": {
+      "class_disagreements": 0,
+      "exact": {
+        "best_fixed_matching_mean_budget": {
+          "accuracy": 0.4306268693371086,
+          "brier": 0.7396604550507253,
+          "mean_reads": 1.6492
+        },
+        "certified_pruning": {
+          "accuracy": 0.4326872461280183,
+          "brier": 0.7388240044117713,
+          "mean_reads": 1.6492
+        },
+        "fixed_two_reads": {
+          "accuracy": 0.4326872461280183,
+          "brier": 0.7452031681465954,
+          "mean_reads": 2.0
+        }
+      },
+      "read_saving_fraction": 0.1754,
+      "simulation": {
+        "best_fixed_matching_mean_budget": {
+          "accuracy": 0.434295654296875,
+          "brier": 0.7370995972993586,
+          "mean_reads": 1.652099609375
+        },
+        "certified_pruning": {
+          "accuracy": 0.43310546875,
+          "brier": 0.7381367955173443,
+          "mean_reads": 1.646087646484375
+        },
+        "fixed_two_reads": {
+          "accuracy": 0.43310546875,
+          "brier": 0.7442822314539946,
+          "mean_reads": 2.0
+        }
+      }
+    },
+    "severe_erasure": {
+      "class_disagreements": 0,
+      "exact": {
+        "best_fixed_matching_mean_budget": {
+          "accuracy": 0.5072358731082113,
+          "brier": 0.6181195340073228,
+          "mean_reads": 1.6492
+        },
+        "certified_pruning": {
+          "accuracy": 0.5250990618677956,
+          "brier": 0.6115490367540963,
+          "mean_reads": 1.8256000000000001
+        },
+        "fixed_two_reads": {
+          "accuracy": 0.5250990618677956,
+          "brier": 0.6071109267325496,
+          "mean_reads": 2.0
+        }
+      },
+      "read_saving_fraction": 0.08719999999999994,
+      "simulation": {
+        "best_fixed_matching_mean_budget": {
+          "accuracy": 0.508575439453125,
+          "brier": 0.6171693092869519,
+          "mean_reads": 1.65203857421875
+        },
+        "certified_pruning": {
+          "accuracy": 0.52655029296875,
+          "brier": 0.6103273511907508,
+          "mean_reads": 1.82818603515625
+        },
+        "fixed_two_reads": {
+          "accuracy": 0.52655029296875,
+          "brier": 0.6058061403554409,
+          "mean_reads": 2.0
+        }
+      }
+    },
+    "uniform_final_reset": {
+      "class_disagreements": 0,
+      "exact": {
+        "best_fixed_matching_mean_budget": {
+          "accuracy": 0.24999999999999997,
+          "brier": 0.9298554352732937,
+          "mean_reads": 1.6491999999999996
+        },
+        "certified_pruning": {
+          "accuracy": 0.25,
+          "brier": 0.9277221309168049,
+          "mean_reads": 1.6492
+        },
+        "fixed_two_reads": {
+          "accuracy": 0.24999999999999997,
+          "brier": 0.9452860726614898,
+          "mean_reads": 1.9999999999999998
+        }
+      },
+      "read_saving_fraction": 0.1754,
+      "simulation": {
+        "best_fixed_matching_mean_budget": {
+          "accuracy": 0.250640869140625,
+          "brier": 0.9291898548794291,
+          "mean_reads": 1.652130126953125
+        },
+        "certified_pruning": {
+          "accuracy": 0.249755859375,
+          "brier": 0.9279432849440316,
+          "mean_reads": 1.64752197265625
+        },
+        "fixed_two_reads": {
+          "accuracy": 0.249755859375,
+          "brier": 0.9451768166473502,
+          "mean_reads": 2.0
+        }
+      }
+    }
+  },
+  "nominal_matched_mean_mixture_probabilities": [
+    [
+      0.0,
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      0.5846666666666669,
+      0.4153333333333331
+    ]
+  ],
+  "original_protocol_sha256": "d138b7edb41bec2fdd4ddb77c194a59500d60417342794e8d77f316ecd4c52b8",
+  "primary_passed": true,
+  "protocol_sha256": "795ba74091d3c4052291f8afc11173c43c3c9ac1a95ccda8dcfda46da48656a4",
+  "simulated_windows_per_family": 32768
+}

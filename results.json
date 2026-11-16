@@ -1,0 +1,572 @@
+{
+  "budget_references": {
+    "guide_only": {
+      "accuracy": 0.36797440000000003,
+      "brier": 0.6920085039360001,
+      "mean_erased": 0.0
+    },
+    "one_read": {
+      "adaptive": {
+        "accuracy": 0.5627556881150708,
+        "brier": 0.6027380508427682,
+        "mean_erased": 0.123
+      },
+      "fixed_after_guide": {
+        "accuracy": 0.5627556881150708,
+        "brier": 0.6027380508427682,
+        "mean_erased": 0.123
+      },
+      "fixed_before_guide": {
+        "accuracy": 0.5131003119144173,
+        "brier": 0.6417210794334085,
+        "mean_erased": 0.123
+      },
+      "myopic_entropy": {
+        "accuracy": 0.5627556881150708,
+        "brier": 0.6027380508427682,
+        "mean_erased": 0.123
+      },
+      "myopic_risk": {
+        "accuracy": 0.5627556881150708,
+        "brier": 0.6027380508427682,
+        "mean_erased": 0.123
+      },
+      "periodic": {
+        "accuracy": 0.5008820240751749,
+        "brier": 0.6419502725851032,
+        "mean_erased": 0.12489
+      }
+    },
+    "three_reads": {
+      "accuracy": 0.6268268574764071,
+      "brier": 0.5275683617091849,
+      "mean_erased": 0.3739707
+    }
+  },
+  "exact_context_witness": {
+    "adaptive": 0.8,
+    "error": 0.2,
+    "fixed_before_guide": 0.65
+  },
+  "families": {
+    "attenuation": {
+      "adaptive_minus_fixed_after_guide": {
+        "adaptive_only": 0,
+        "difference": 0.0,
+        "exact_difference": 0.0,
+        "fixed_only": 0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "policies": {
+        "adaptive": {
+          "exact": {
+            "accuracy": 0.47926811774019273,
+            "brier": 0.671151181705391,
+            "mean_erased": 0.24908070000000002
+          },
+          "simulation": {
+            "accuracy": 0.482666015625,
+            "brier": 0.6672337565144972,
+            "mean_erased": 0.243743896484375
+          }
+        },
+        "fixed_after_guide": {
+          "exact": {
+            "accuracy": 0.47926811774019273,
+            "brier": 0.6663524087200825,
+            "mean_erased": 0.24908070000000002
+          },
+          "simulation": {
+            "accuracy": 0.482666015625,
+            "brier": 0.6622351570682938,
+            "mean_erased": 0.244720458984375
+          }
+        },
+        "fixed_before_guide": {
+          "exact": {
+            "accuracy": 0.4697639847603522,
+            "brier": 0.688916731940929,
+            "mean_erased": 0.24908070000000002
+          },
+          "simulation": {
+            "accuracy": 0.472991943359375,
+            "brier": 0.6847609989982281,
+            "mean_erased": 0.245635986328125
+          }
+        },
+        "myopic_entropy": {
+          "exact": {
+            "accuracy": 0.47926811774019273,
+            "brier": 0.6663524087200825,
+            "mean_erased": 0.24908070000000002
+          },
+          "simulation": {
+            "accuracy": 0.482666015625,
+            "brier": 0.6622351570682938,
+            "mean_erased": 0.244720458984375
+          }
+        },
+        "myopic_risk": {
+          "exact": {
+            "accuracy": 0.47926811774019273,
+            "brier": 0.6752831084682477,
+            "mean_erased": 0.24797573040000004
+          },
+          "simulation": {
+            "accuracy": 0.482666015625,
+            "brier": 0.6707191164709504,
+            "mean_erased": 0.24127197265625
+          }
+        },
+        "periodic": {
+          "exact": {
+            "accuracy": 0.4697639847603522,
+            "brier": 0.688916731940929,
+            "mean_erased": 0.24908070000000002
+          },
+          "simulation": {
+            "accuracy": 0.472991943359375,
+            "brier": 0.6847609989982281,
+            "mean_erased": 0.245635986328125
+          }
+        }
+      }
+    },
+    "clock_drift": {
+      "adaptive_minus_fixed_after_guide": {
+        "adaptive_only": 0,
+        "difference": 0.0,
+        "exact_difference": 0.0,
+        "fixed_only": 0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "policies": {
+        "adaptive": {
+          "exact": {
+            "accuracy": 0.5471221863889077,
+            "brier": 0.6082611546928114,
+            "mean_erased": 0.24908070000000004
+          },
+          "simulation": {
+            "accuracy": 0.5482177734375,
+            "brier": 0.6076400820993146,
+            "mean_erased": 0.24847412109375
+          }
+        },
+        "fixed_after_guide": {
+          "exact": {
+            "accuracy": 0.5471221863889077,
+            "brier": 0.6030766396854988,
+            "mean_erased": 0.24908070000000004
+          },
+          "simulation": {
+            "accuracy": 0.5482177734375,
+            "brier": 0.6021295325081679,
+            "mean_erased": 0.248931884765625
+          }
+        },
+        "fixed_before_guide": {
+          "exact": {
+            "accuracy": 0.5274647754610025,
+            "brier": 0.636412031083039,
+            "mean_erased": 0.24908070000000004
+          },
+          "simulation": {
+            "accuracy": 0.52874755859375,
+            "brier": 0.6357126912354634,
+            "mean_erased": 0.246856689453125
+          }
+        },
+        "myopic_entropy": {
+          "exact": {
+            "accuracy": 0.5471221863889077,
+            "brier": 0.6030766396854988,
+            "mean_erased": 0.24908070000000004
+          },
+          "simulation": {
+            "accuracy": 0.5482177734375,
+            "brier": 0.6021295325081679,
+            "mean_erased": 0.248931884765625
+          }
+        },
+        "myopic_risk": {
+          "exact": {
+            "accuracy": 0.5471221863889077,
+            "brier": 0.6147445488417542,
+            "mean_erased": 0.24797573040000004
+          },
+          "simulation": {
+            "accuracy": 0.5482177734375,
+            "brier": 0.6140279081833915,
+            "mean_erased": 0.24652099609375
+          }
+        },
+        "periodic": {
+          "exact": {
+            "accuracy": 0.5274647754610025,
+            "brier": 0.636412031083039,
+            "mean_erased": 0.24908070000000004
+          },
+          "simulation": {
+            "accuracy": 0.52874755859375,
+            "brier": 0.6357126912354634,
+            "mean_erased": 0.246856689453125
+          }
+        }
+      }
+    },
+    "guide_drift": {
+      "adaptive_minus_fixed_after_guide": {
+        "adaptive_only": 0,
+        "difference": 0.0,
+        "exact_difference": 0.0,
+        "fixed_only": 0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "policies": {
+        "adaptive": {
+          "exact": {
+            "accuracy": 0.4370879968546475,
+            "brier": 0.710115841015395,
+            "mean_erased": 0.24908070000000002
+          },
+          "simulation": {
+            "accuracy": 0.43670654296875,
+            "brier": 0.7104264923540476,
+            "mean_erased": 0.248260498046875
+          }
+        },
+        "fixed_after_guide": {
+          "exact": {
+            "accuracy": 0.4370879968546475,
+            "brier": 0.7088902666832114,
+            "mean_erased": 0.24908070000000002
+          },
+          "simulation": {
+            "accuracy": 0.43670654296875,
+            "brier": 0.709418340417548,
+            "mean_erased": 0.246734619140625
+          }
+        },
+        "fixed_before_guide": {
+          "exact": {
+            "accuracy": 0.42418142562703653,
+            "brier": 0.7214734768919534,
+            "mean_erased": 0.2490807
+          },
+          "simulation": {
+            "accuracy": 0.423583984375,
+            "brier": 0.7216473868998501,
+            "mean_erased": 0.247955322265625
+          }
+        },
+        "myopic_entropy": {
+          "exact": {
+            "accuracy": 0.4370879968546475,
+            "brier": 0.7088902666832114,
+            "mean_erased": 0.24908070000000002
+          },
+          "simulation": {
+            "accuracy": 0.43670654296875,
+            "brier": 0.709418340417548,
+            "mean_erased": 0.246734619140625
+          }
+        },
+        "myopic_risk": {
+          "exact": {
+            "accuracy": 0.4370879968546475,
+            "brier": 0.7139024117318232,
+            "mean_erased": 0.2477685486
+          },
+          "simulation": {
+            "accuracy": 0.43670654296875,
+            "brier": 0.7142701811339737,
+            "mean_erased": 0.243499755859375
+          }
+        },
+        "periodic": {
+          "exact": {
+            "accuracy": 0.42418142562703653,
+            "brier": 0.7214734768919534,
+            "mean_erased": 0.2490807
+          },
+          "simulation": {
+            "accuracy": 0.423583984375,
+            "brier": 0.7216473868998501,
+            "mean_erased": 0.247955322265625
+          }
+        }
+      }
+    },
+    "nominal": {
+      "adaptive_minus_fixed_after_guide": {
+        "adaptive_only": 0,
+        "difference": 0.0,
+        "exact_difference": 0.0,
+        "fixed_only": 0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "policies": {
+        "adaptive": {
+          "exact": {
+            "accuracy": 0.5836838870933942,
+            "brier": 0.5612061046869381,
+            "mean_erased": 0.24908070000000004
+          },
+          "simulation": {
+            "accuracy": 0.586669921875,
+            "brier": 0.5600419712162328,
+            "mean_erased": 0.2481689453125
+          }
+        },
+        "fixed_after_guide": {
+          "exact": {
+            "accuracy": 0.5836838870933942,
+            "brier": 0.5547139273385103,
+            "mean_erased": 0.24908070000000004
+          },
+          "simulation": {
+            "accuracy": 0.586669921875,
+            "brier": 0.5533200322900719,
+            "mean_erased": 0.25067138671875
+          }
+        },
+        "fixed_before_guide": {
+          "exact": {
+            "accuracy": 0.5649171354132432,
+            "brier": 0.5942639908223335,
+            "mean_erased": 0.24908070000000004
+          },
+          "simulation": {
+            "accuracy": 0.567413330078125,
+            "brier": 0.5911657567743861,
+            "mean_erased": 0.2491455078125
+          }
+        },
+        "myopic_entropy": {
+          "exact": {
+            "accuracy": 0.5836838870933942,
+            "brier": 0.5547139273385103,
+            "mean_erased": 0.24908070000000004
+          },
+          "simulation": {
+            "accuracy": 0.586669921875,
+            "brier": 0.5533200322900719,
+            "mean_erased": 0.25067138671875
+          }
+        },
+        "myopic_risk": {
+          "exact": {
+            "accuracy": 0.5836838870933942,
+            "brier": 0.5674131685159626,
+            "mean_erased": 0.24797573040000004
+          },
+          "simulation": {
+            "accuracy": 0.586669921875,
+            "brier": 0.5646736096769741,
+            "mean_erased": 0.248504638671875
+          }
+        },
+        "periodic": {
+          "exact": {
+            "accuracy": 0.5649171354132432,
+            "brier": 0.5942639908223335,
+            "mean_erased": 0.24908070000000004
+          },
+          "simulation": {
+            "accuracy": 0.567413330078125,
+            "brier": 0.5911657567743861,
+            "mean_erased": 0.2491455078125
+          }
+        }
+      }
+    },
+    "persistent_loss": {
+      "adaptive_minus_fixed_after_guide": {
+        "adaptive_only": 0,
+        "difference": 0.0,
+        "exact_difference": 0.0,
+        "fixed_only": 0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "policies": {
+        "adaptive": {
+          "exact": {
+            "accuracy": 0.5716481530857067,
+            "brier": 0.5683125444221055,
+            "mean_erased": 0.6149008000000001
+          },
+          "simulation": {
+            "accuracy": 0.575714111328125,
+            "brier": 0.5641378637811673,
+            "mean_erased": 0.61126708984375
+          }
+        },
+        "fixed_after_guide": {
+          "exact": {
+            "accuracy": 0.5716481530857067,
+            "brier": 0.5637179911646895,
+            "mean_erased": 0.6149008000000001
+          },
+          "simulation": {
+            "accuracy": 0.575714111328125,
+            "brier": 0.5594317392691881,
+            "mean_erased": 0.61236572265625
+          }
+        },
+        "fixed_before_guide": {
+          "exact": {
+            "accuracy": 0.5411895723005489,
+            "brier": 0.5990215656233178,
+            "mean_erased": 0.6149008000000001
+          },
+          "simulation": {
+            "accuracy": 0.54437255859375,
+            "brier": 0.5964024869987263,
+            "mean_erased": 0.61376953125
+          }
+        },
+        "myopic_entropy": {
+          "exact": {
+            "accuracy": 0.5716481530857067,
+            "brier": 0.5637179911646895,
+            "mean_erased": 0.6149008000000001
+          },
+          "simulation": {
+            "accuracy": 0.575714111328125,
+            "brier": 0.5594317392691881,
+            "mean_erased": 0.61236572265625
+          }
+        },
+        "myopic_risk": {
+          "exact": {
+            "accuracy": 0.5716481530857066,
+            "brier": 0.5726954148971483,
+            "mean_erased": 0.6109705744000001
+          },
+          "simulation": {
+            "accuracy": 0.575714111328125,
+            "brier": 0.5690168198485197,
+            "mean_erased": 0.60955810546875
+          }
+        },
+        "periodic": {
+          "exact": {
+            "accuracy": 0.5411895723005489,
+            "brier": 0.5990215656233178,
+            "mean_erased": 0.6149008000000001
+          },
+          "simulation": {
+            "accuracy": 0.54437255859375,
+            "brier": 0.5964024869987263,
+            "mean_erased": 0.61376953125
+          }
+        }
+      }
+    },
+    "uniform_final_reset": {
+      "adaptive_minus_fixed_after_guide": {
+        "adaptive_only": 0,
+        "difference": 0.0,
+        "exact_difference": 0.0,
+        "fixed_only": 0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "policies": {
+        "adaptive": {
+          "exact": {
+            "accuracy": 0.24999999999999997,
+            "brier": 0.9387938953130619,
+            "mean_erased": 0.24908070000000002
+          },
+          "simulation": {
+            "accuracy": 0.24713134765625,
+            "brier": 0.9425887704608829,
+            "mean_erased": 0.248687744140625
+          }
+        },
+        "fixed_after_guide": {
+          "exact": {
+            "accuracy": 0.24999999999999997,
+            "brier": 0.9452860726614898,
+            "mean_erased": 0.24908070000000002
+          },
+          "simulation": {
+            "accuracy": 0.24713134765625,
+            "brier": 0.9479813644341262,
+            "mean_erased": 0.249114990234375
+          }
+        },
+        "fixed_before_guide": {
+          "exact": {
+            "accuracy": 0.25,
+            "brier": 0.9057360091776665,
+            "mean_erased": 0.24908070000000002
+          },
+          "simulation": {
+            "accuracy": 0.2471923828125,
+            "brier": 0.9093839407085835,
+            "mean_erased": 0.254058837890625
+          }
+        },
+        "myopic_entropy": {
+          "exact": {
+            "accuracy": 0.24999999999999997,
+            "brier": 0.9452860726614898,
+            "mean_erased": 0.24908070000000002
+          },
+          "simulation": {
+            "accuracy": 0.24713134765625,
+            "brier": 0.9479813644341262,
+            "mean_erased": 0.249114990234375
+          }
+        },
+        "myopic_risk": {
+          "exact": {
+            "accuracy": 0.25,
+            "brier": 0.9325868314840375,
+            "mean_erased": 0.24797573040000004
+          },
+          "simulation": {
+            "accuracy": 0.24713134765625,
+            "brier": 0.9354864917076613,
+            "mean_erased": 0.248443603515625
+          }
+        },
+        "periodic": {
+          "exact": {
+            "accuracy": 0.25,
+            "brier": 0.9057360091776665,
+            "mean_erased": 0.24908070000000002
+          },
+          "simulation": {
+            "accuracy": 0.2471923828125,
+            "brier": 0.9093839407085835,
+            "mean_erased": 0.254058837890625
+          }
+        }
+      }
+    }
+  },
+  "primary_passed": false,
+  "protocol_sha256": "d138b7edb41bec2fdd4ddb77c194a59500d60417342794e8d77f316ecd4c52b8",
+  "simulated_windows_per_family": 32768
+}
