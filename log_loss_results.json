@@ -1,0 +1,3123 @@
+{
+  "families": {
+    "combined_shifts": {
+      "bayes": {
+        "exact": {
+          "accuracy": 0.46035816253971507,
+          "excess_log_loss": 0.019796866454629303,
+          "log_loss": 1.2986551339510646,
+          "mean_reads": 1.6511887500000002
+        },
+        "simulation": {
+          "accuracy": 0.4583740234375,
+          "excess_log_loss": 0.021097433253532957,
+          "label_disagreements": 0,
+          "log_loss": 1.3011388052974133,
+          "max_realised_ratio": 2.4155806892638494,
+          "mean_reads": 1.6463623046875,
+          "paired_95_pct_ci": [
+            0.015520205830578865,
+            0.02667466067648705
+          ],
+          "standard_error": 0.0028455241953847417
+        }
+      },
+      "bayes_ratio_1.25": {
+        "exact": {
+          "accuracy": 0.46035816253971507,
+          "excess_log_loss": 0.0,
+          "log_loss": 1.2788582674964353,
+          "mean_reads": 2.0000000000000004
+        },
+        "simulation": {
+          "accuracy": 0.4583740234375,
+          "excess_log_loss": 0.0,
+          "label_disagreements": 0,
+          "log_loss": 1.2800413720438804,
+          "max_realised_ratio": 1.0,
+          "mean_reads": 2.0,
+          "paired_95_pct_ci": [
+            0.0,
+            0.0
+          ],
+          "standard_error": 0.0
+        }
+      },
+      "bayes_ratio_1.50": {
+        "exact": {
+          "accuracy": 0.46035816253971507,
+          "excess_log_loss": 0.0,
+          "log_loss": 1.2788582674964353,
+          "mean_reads": 2.0000000000000004
+        },
+        "simulation": {
+          "accuracy": 0.4583740234375,
+          "excess_log_loss": 0.0,
+          "label_disagreements": 0,
+          "log_loss": 1.2800413720438804,
+          "max_realised_ratio": 1.0,
+          "mean_reads": 2.0,
+          "paired_95_pct_ci": [
+            0.0,
+            0.0
+          ],
+          "standard_error": 0.0
+        }
+      },
+      "brier_minimax": {
+        "exact": {
+          "accuracy": 0.46035816253971507,
+          "excess_log_loss": 0.04620828501213481,
+          "log_loss": 1.32506655250857,
+          "mean_reads": 1.6511887500000002
+        },
+        "simulation": {
+          "accuracy": 0.4583740234375,
+          "excess_log_loss": 0.04930086749637082,
+          "label_disagreements": 0,
+          "log_loss": 1.3293422395402512,
+          "max_realised_ratio": 1.9104515300369913,
+          "mean_reads": 1.6463623046875,
+          "paired_95_pct_ci": [
+            0.042675297589389496,
+            0.05592643740335214
+          ],
+          "standard_error": 0.003380392809684349
+        }
+      },
+      "brier_minimax_ratio_1.25": {
+        "exact": {
+          "accuracy": 0.46035816253971507,
+          "excess_log_loss": 0.0,
+          "log_loss": 1.2788582674964353,
+          "mean_reads": 2.0000000000000004
+        },
+        "simulation": {
+          "accuracy": 0.4583740234375,
+          "excess_log_loss": 0.0,
+          "label_disagreements": 0,
+          "log_loss": 1.2800413720438804,
+          "max_realised_ratio": 1.0,
+          "mean_reads": 2.0,
+          "paired_95_pct_ci": [
+            0.0,
+            0.0
+          ],
+          "standard_error": 0.0
+        }
+      },
+      "brier_minimax_ratio_1.50": {
+        "exact": {
+          "accuracy": 0.46035816253971507,
+          "excess_log_loss": 0.0,
+          "log_loss": 1.2788582674964353,
+          "mean_reads": 2.0000000000000004
+        },
+        "simulation": {
+          "accuracy": 0.4583740234375,
+          "excess_log_loss": 0.0,
+          "label_disagreements": 0,
+          "log_loss": 1.2800413720438804,
+          "max_realised_ratio": 1.0,
+          "mean_reads": 2.0,
+          "paired_95_pct_ci": [
+            0.0,
+            0.0
+          ],
+          "standard_error": 0.0
+        }
+      },
+      "full_reference": {
+        "exact": {
+          "accuracy": 0.46035816253971507,
+          "excess_log_loss": 0.0,
+          "log_loss": 1.2788582674964353,
+          "mean_reads": 2.0000000000000004
+        },
+        "simulation": {
+          "accuracy": 0.4583740234375,
+          "excess_log_loss": 0.0,
+          "label_disagreements": 0,
+          "log_loss": 1.2800413720438804,
+          "max_realised_ratio": 1.0,
+          "mean_reads": 2.0,
+          "paired_95_pct_ci": [
+            0.0,
+            0.0
+          ],
+          "standard_error": 0.0
+        }
+      },
+      "log_minimax": {
+        "exact": {
+          "accuracy": 0.46035816253971507,
+          "excess_log_loss": 0.022480072219034142,
+          "log_loss": 1.3013383397154694,
+          "mean_reads": 1.6511887500000002
+        },
+        "simulation": {
+          "accuracy": 0.4583740234375,
+          "excess_log_loss": 0.024818362622847014,
+          "label_disagreements": 0,
+          "log_loss": 1.3048597346667274,
+          "max_realised_ratio": 1.3977204020153753,
+          "mean_reads": 1.6463623046875,
+          "paired_95_pct_ci": [
+            0.018925907030463728,
+            0.0307108182152303
+          ],
+          "standard_error": 0.0030063548940731056
+        }
+      },
+      "log_minimax_ratio_1.25": {
+        "exact": {
+          "accuracy": 0.46035816253971507,
+          "excess_log_loss": 0.0,
+          "log_loss": 1.2788582674964353,
+          "mean_reads": 2.0000000000000004
+        },
+        "simulation": {
+          "accuracy": 0.4583740234375,
+          "excess_log_loss": 0.0,
+          "label_disagreements": 0,
+          "log_loss": 1.2800413720438804,
+          "max_realised_ratio": 1.0,
+          "mean_reads": 2.0,
+          "paired_95_pct_ci": [
+            0.0,
+            0.0
+          ],
+          "standard_error": 0.0
+        }
+      },
+      "log_minimax_ratio_1.50": {
+        "exact": {
+          "accuracy": 0.46035816253971507,
+          "excess_log_loss": 0.022480072219034142,
+          "log_loss": 1.3013383397154694,
+          "mean_reads": 1.6511887500000002
+        },
+        "simulation": {
+          "accuracy": 0.4583740234375,
+          "excess_log_loss": 0.024818362622847014,
+          "label_disagreements": 0,
+          "log_loss": 1.3048597346667274,
+          "max_realised_ratio": 1.3977204020153753,
+          "mean_reads": 1.6463623046875,
+          "paired_95_pct_ci": [
+            0.018925907030463728,
+            0.0307108182152303
+          ],
+          "standard_error": 0.0030063548940731056
+        }
+      },
+      "matched_precommit": {
+        "exact": {
+          "accuracy": 0.45308028122115956,
+          "excess_log_loss": 0.01620802982396241,
+          "log_loss": 1.2950662973203977,
+          "mean_reads": 1.6682016666666668
+        },
+        "simulation": {
+          "accuracy": 0.4468994140625,
+          "excess_log_loss": 0.022334632255777913,
+          "label_disagreements": 974,
+          "log_loss": 1.3023760042996584,
+          "max_realised_ratio": 2.231412708612072,
+          "mean_reads": 1.666259765625,
+          "paired_95_pct_ci": [
+            0.01728008052682315,
+            0.027389183984732675
+          ],
+          "standard_error": 0.002578852922936103
+        }
+      },
+      "uniform": {
+        "exact": {
+          "accuracy": 0.46035816253971507,
+          "excess_log_loss": 0.012671762323146929,
+          "log_loss": 1.2915300298195822,
+          "mean_reads": 1.6511887500000002
+        },
+        "simulation": {
+          "accuracy": 0.4583740234375,
+          "excess_log_loss": 0.013989236909895422,
+          "label_disagreements": 0,
+          "log_loss": 1.294030608953776,
+          "max_realised_ratio": 1.8684187774980892,
+          "mean_reads": 1.6463623046875,
+          "paired_95_pct_ci": [
+            0.008578615482246279,
+            0.019399858337544564
+          ],
+          "standard_error": 0.0027605211365556853
+        }
+      },
+      "uniform_ratio_1.25": {
+        "exact": {
+          "accuracy": 0.46035816253971507,
+          "excess_log_loss": 0.0,
+          "log_loss": 1.2788582674964353,
+          "mean_reads": 2.0000000000000004
+        },
+        "simulation": {
+          "accuracy": 0.4583740234375,
+          "excess_log_loss": 0.0,
+          "label_disagreements": 0,
+          "log_loss": 1.2800413720438804,
+          "max_realised_ratio": 1.0,
+          "mean_reads": 2.0,
+          "paired_95_pct_ci": [
+            0.0,
+            0.0
+          ],
+          "standard_error": 0.0
+        }
+      },
+      "uniform_ratio_1.50": {
+        "exact": {
+          "accuracy": 0.46035816253971507,
+          "excess_log_loss": 0.0,
+          "log_loss": 1.2788582674964353,
+          "mean_reads": 2.0000000000000004
+        },
+        "simulation": {
+          "accuracy": 0.4583740234375,
+          "excess_log_loss": 0.0,
+          "label_disagreements": 0,
+          "log_loss": 1.2800413720438804,
+          "max_realised_ratio": 1.0,
+          "mean_reads": 2.0,
+          "paired_95_pct_ci": [
+            0.0,
+            0.0
+          ],
+          "standard_error": 0.0
+        }
+      }
+    },
+    "faster_irregular_clock": {
+      "bayes": {
+        "exact": {
+          "accuracy": 0.5779744798022058,
+          "excess_log_loss": 0.028395584663559292,
+          "log_loss": 1.115749199311212,
+          "mean_reads": 1.6492
+        },
+        "simulation": {
+          "accuracy": 0.5791015625,
+          "excess_log_loss": 0.024660908783865204,
+          "label_disagreements": 0,
+          "log_loss": 1.1084803457006518,
+          "max_realised_ratio": 2.4155806892638494,
+          "mean_reads": 1.654296875,
+          "paired_95_pct_ci": [
+            0.019033565126553756,
+            0.030288252441176652
+          ],
+          "standard_error": 0.0028710937027099227
+        }
+      },
+      "bayes_ratio_1.25": {
+        "exact": {
+          "accuracy": 0.5779744798022058,
+          "excess_log_loss": 0.0,
+          "log_loss": 1.0873536146476528,
+          "mean_reads": 1.9999999999999998
+        },
+        "simulation": {
+          "accuracy": 0.5791015625,
+          "excess_log_loss": 0.0,
+          "label_disagreements": 0,
+          "log_loss": 1.0838194369167868,
+          "max_realised_ratio": 1.0,
+          "mean_reads": 2.0,
+          "paired_95_pct_ci": [
+            0.0,
+            0.0
+          ],
+          "standard_error": 0.0
+        }
+      },
+      "bayes_ratio_1.50": {
+        "exact": {
+          "accuracy": 0.5779744798022058,
+          "excess_log_loss": 0.0,
+          "log_loss": 1.0873536146476528,
+          "mean_reads": 1.9999999999999998
+        },
+        "simulation": {
+          "accuracy": 0.5791015625,
+          "excess_log_loss": 0.0,
+          "label_disagreements": 0,
+          "log_loss": 1.0838194369167868,
+          "max_realised_ratio": 1.0,
+          "mean_reads": 2.0,
+          "paired_95_pct_ci": [
+            0.0,
+            0.0
+          ],
+          "standard_error": 0.0
+        }
+      },
+      "brier_minimax": {
+        "exact": {
+          "accuracy": 0.5779744798022058,
+          "excess_log_loss": 0.04766036064281942,
+          "log_loss": 1.1350139752904722,
+          "mean_reads": 1.6492
+        },
+        "simulation": {
+          "accuracy": 0.5791015625,
+          "excess_log_loss": 0.040946156306433404,
+          "label_disagreements": 0,
+          "log_loss": 1.1247655932232201,
+          "max_realised_ratio": 1.9104515300369913,
+          "mean_reads": 1.654296875,
+          "paired_95_pct_ci": [
+            0.0346578392557899,
+            0.04723447335707691
+          ],
+          "standard_error": 0.0032083250258385233
+        }
+      },
+      "brier_minimax_ratio_1.25": {
+        "exact": {
+          "accuracy": 0.5779744798022058,
+          "excess_log_loss": 0.0,
+          "log_loss": 1.0873536146476528,
+          "mean_reads": 1.9999999999999998
+        },
+        "simulation": {
+          "accuracy": 0.5791015625,
+          "excess_log_loss": 0.0,
+          "label_disagreements": 0,
+          "log_loss": 1.0838194369167868,
+          "max_realised_ratio": 1.0,
+          "mean_reads": 2.0,
+          "paired_95_pct_ci": [
+            0.0,
+            0.0
+          ],
+          "standard_error": 0.0
+        }
+      },
+      "brier_minimax_ratio_1.50": {
+        "exact": {
+          "accuracy": 0.5779744798022058,
+          "excess_log_loss": 0.0,
+          "log_loss": 1.0873536146476528,
+          "mean_reads": 1.9999999999999998
+        },
+        "simulation": {
+          "accuracy": 0.5791015625,
+          "excess_log_loss": 0.0,
+          "label_disagreements": 0,
+          "log_loss": 1.0838194369167868,
+          "max_realised_ratio": 1.0,
+          "mean_reads": 2.0,
+          "paired_95_pct_ci": [
+            0.0,
+            0.0
+          ],
+          "standard_error": 0.0
+        }
+      },
+      "full_reference": {
+        "exact": {
+          "accuracy": 0.5779744798022058,
+          "excess_log_loss": 0.0,
+          "log_loss": 1.0873536146476528,
+          "mean_reads": 1.9999999999999998
+        },
+        "simulation": {
+          "accuracy": 0.5791015625,
+          "excess_log_loss": 0.0,
+          "label_disagreements": 0,
+          "log_loss": 1.0838194369167868,
+          "max_realised_ratio": 1.0,
+          "mean_reads": 2.0,
+          "paired_95_pct_ci": [
+            0.0,
+            0.0
+          ],
+          "standard_error": 0.0
+        }
+      },
+      "log_minimax": {
+        "exact": {
+          "accuracy": 0.5779744798022058,
+          "excess_log_loss": 0.03532571435175269,
+          "log_loss": 1.1226793289994055,
+          "mean_reads": 1.6492
+        },
+        "simulation": {
+          "accuracy": 0.5791015625,
+          "excess_log_loss": 0.029269369471416395,
+          "label_disagreements": 0,
+          "log_loss": 1.1130888063882032,
+          "max_realised_ratio": 1.3977204020153753,
+          "mean_reads": 1.654296875,
+          "paired_95_pct_ci": [
+            0.02331893793130605,
+            0.03521980101152674
+          ],
+          "standard_error": 0.003035934459239972
+        }
+      },
+      "log_minimax_ratio_1.25": {
+        "exact": {
+          "accuracy": 0.5779744798022058,
+          "excess_log_loss": 0.0,
+          "log_loss": 1.0873536146476528,
+          "mean_reads": 1.9999999999999998
+        },
+        "simulation": {
+          "accuracy": 0.5791015625,
+          "excess_log_loss": 0.0,
+          "label_disagreements": 0,
+          "log_loss": 1.0838194369167868,
+          "max_realised_ratio": 1.0,
+          "mean_reads": 2.0,
+          "paired_95_pct_ci": [
+            0.0,
+            0.0
+          ],
+          "standard_error": 0.0
+        }
+      },
+      "log_minimax_ratio_1.50": {
+        "exact": {
+          "accuracy": 0.5779744798022058,
+          "excess_log_loss": 0.03532571435175269,
+          "log_loss": 1.1226793289994055,
+          "mean_reads": 1.6492
+        },
+        "simulation": {
+          "accuracy": 0.5791015625,
+          "excess_log_loss": 0.029269369471416395,
+          "label_disagreements": 0,
+          "log_loss": 1.1130888063882032,
+          "max_realised_ratio": 1.3977204020153753,
+          "mean_reads": 1.654296875,
+          "paired_95_pct_ci": [
+            0.02331893793130605,
+            0.03521980101152674
+          ],
+          "standard_error": 0.003035934459239972
+        }
+      },
+      "matched_precommit": {
+        "exact": {
+          "accuracy": 0.5710232925981128,
+          "excess_log_loss": 0.025598044984765478,
+          "log_loss": 1.1129516596324183,
+          "mean_reads": 1.6491999999999996
+        },
+        "simulation": {
+          "accuracy": 0.573486328125,
+          "excess_log_loss": 0.02646921036437667,
+          "label_disagreements": 940,
+          "log_loss": 1.1102886472811633,
+          "max_realised_ratio": 2.231412708612072,
+          "mean_reads": 1.6524658203125,
+          "paired_95_pct_ci": [
+            0.02136479206495784,
+            0.0315736286637955
+          ],
+          "standard_error": 0.0026042950507238925
+        }
+      },
+      "uniform": {
+        "exact": {
+          "accuracy": 0.5779744798022058,
+          "excess_log_loss": 0.02922715663725506,
+          "log_loss": 1.1165807712849078,
+          "mean_reads": 1.6492
+        },
+        "simulation": {
+          "accuracy": 0.5791015625,
+          "excess_log_loss": 0.024598443224089814,
+          "label_disagreements": 0,
+          "log_loss": 1.1084178801408764,
+          "max_realised_ratio": 1.8684187774980892,
+          "mean_reads": 1.654296875,
+          "paired_95_pct_ci": [
+            0.019041017552264956,
+            0.03015586889591467
+          ],
+          "standard_error": 0.0028354212611351307
+        }
+      },
+      "uniform_ratio_1.25": {
+        "exact": {
+          "accuracy": 0.5779744798022058,
+          "excess_log_loss": 0.0,
+          "log_loss": 1.0873536146476528,
+          "mean_reads": 1.9999999999999998
+        },
+        "simulation": {
+          "accuracy": 0.5791015625,
+          "excess_log_loss": 0.0,
+          "label_disagreements": 0,
+          "log_loss": 1.0838194369167868,
+          "max_realised_ratio": 1.0,
+          "mean_reads": 2.0,
+          "paired_95_pct_ci": [
+            0.0,
+            0.0
+          ],
+          "standard_error": 0.0
+        }
+      },
+      "uniform_ratio_1.50": {
+        "exact": {
+          "accuracy": 0.5779744798022058,
+          "excess_log_loss": 0.0,
+          "log_loss": 1.0873536146476528,
+          "mean_reads": 1.9999999999999998
+        },
+        "simulation": {
+          "accuracy": 0.5791015625,
+          "excess_log_loss": 0.0,
+          "label_disagreements": 0,
+          "log_loss": 1.0838194369167868,
+          "max_realised_ratio": 1.0,
+          "mean_reads": 2.0,
+          "paired_95_pct_ci": [
+            0.0,
+            0.0
+          ],
+          "standard_error": 0.0
+        }
+      }
+    },
+    "lower_quality_persistence": {
+      "bayes": {
+        "exact": {
+          "accuracy": 0.5777289555053488,
+          "excess_log_loss": 0.027480937762116575,
+          "log_loss": 1.0802276865005398,
+          "mean_reads": 1.6824000000000006
+        },
+        "simulation": {
+          "accuracy": 0.578857421875,
+          "excess_log_loss": 0.022994925800341147,
+          "label_disagreements": 0,
+          "log_loss": 1.0767705665629275,
+          "max_realised_ratio": 2.4155806892638494,
+          "mean_reads": 1.68310546875,
+          "paired_95_pct_ci": [
+            0.018333904892194223,
+            0.02765594670848807
+          ],
+          "standard_error": 0.0023780718919116962
+        }
+      },
+      "bayes_ratio_1.25": {
+        "exact": {
+          "accuracy": 0.5777289555053488,
+          "excess_log_loss": 0.0,
+          "log_loss": 1.0527467487384232,
+          "mean_reads": 2.0000000000000004
+        },
+        "simulation": {
+          "accuracy": 0.578857421875,
+          "excess_log_loss": 0.0,
+          "label_disagreements": 0,
+          "log_loss": 1.0537756407625862,
+          "max_realised_ratio": 1.0,
+          "mean_reads": 2.0,
+          "paired_95_pct_ci": [
+            0.0,
+            0.0
+          ],
+          "standard_error": 0.0
+        }
+      },
+      "bayes_ratio_1.50": {
+        "exact": {
+          "accuracy": 0.5777289555053488,
+          "excess_log_loss": 0.0,
+          "log_loss": 1.0527467487384232,
+          "mean_reads": 2.0000000000000004
+        },
+        "simulation": {
+          "accuracy": 0.578857421875,
+          "excess_log_loss": 0.0,
+          "label_disagreements": 0,
+          "log_loss": 1.0537756407625862,
+          "max_realised_ratio": 1.0,
+          "mean_reads": 2.0,
+          "paired_95_pct_ci": [
+            0.0,
+            0.0
+          ],
+          "standard_error": 0.0
+        }
+      },
+      "brier_minimax": {
+        "exact": {
+          "accuracy": 0.5777289555053488,
+          "excess_log_loss": 0.052541007228581016,
+          "log_loss": 1.1052877559670042,
+          "mean_reads": 1.6824000000000006
+        },
+        "simulation": {
+          "accuracy": 0.578857421875,
+          "excess_log_loss": 0.04673368865221757,
+          "label_disagreements": 0,
+          "log_loss": 1.1005093294148036,
+          "max_realised_ratio": 1.9104515300369913,
+          "mean_reads": 1.68310546875,
+          "paired_95_pct_ci": [
+            0.04117653191741491,
+            0.052290845387020224
+          ],
+          "standard_error": 0.002835284048368703
+        }
+      },
+      "brier_minimax_ratio_1.25": {
+        "exact": {
+          "accuracy": 0.5777289555053488,
+          "excess_log_loss": 0.0,
+          "log_loss": 1.0527467487384232,
+          "mean_reads": 2.0000000000000004
+        },
+        "simulation": {
+          "accuracy": 0.578857421875,
+          "excess_log_loss": 0.0,
+          "label_disagreements": 0,
+          "log_loss": 1.0537756407625862,
+          "max_realised_ratio": 1.0,
+          "mean_reads": 2.0,
+          "paired_95_pct_ci": [
+            0.0,
+            0.0
+          ],
+          "standard_error": 0.0
+        }
+      },
+      "brier_minimax_ratio_1.50": {
+        "exact": {
+          "accuracy": 0.5777289555053488,
+          "excess_log_loss": 0.0,
+          "log_loss": 1.0527467487384232,
+          "mean_reads": 2.0000000000000004
+        },
+        "simulation": {
+          "accuracy": 0.578857421875,
+          "excess_log_loss": 0.0,
+          "label_disagreements": 0,
+          "log_loss": 1.0537756407625862,
+          "max_realised_ratio": 1.0,
+          "mean_reads": 2.0,
+          "paired_95_pct_ci": [
+            0.0,
+            0.0
+          ],
+          "standard_error": 0.0
+        }
+      },
+      "full_reference": {
+        "exact": {
+          "accuracy": 0.5777289555053488,
+          "excess_log_loss": 0.0,
+          "log_loss": 1.0527467487384232,
+          "mean_reads": 2.0000000000000004
+        },
+        "simulation": {
+          "accuracy": 0.578857421875,
+          "excess_log_loss": 0.0,
+          "label_disagreements": 0,
+          "log_loss": 1.0537756407625862,
+          "max_realised_ratio": 1.0,
+          "mean_reads": 2.0,
+          "paired_95_pct_ci": [
+            0.0,
+            0.0
+          ],
+          "standard_error": 0.0
+        }
+      },
+      "log_minimax": {
+        "exact": {
+          "accuracy": 0.5777289555053488,
+          "excess_log_loss": 0.04267268105230304,
+          "log_loss": 1.0954194297907263,
+          "mean_reads": 1.6824000000000006
+        },
+        "simulation": {
+          "accuracy": 0.578857421875,
+          "excess_log_loss": 0.037552188097819364,
+          "label_disagreements": 0,
+          "log_loss": 1.0913278288604056,
+          "max_realised_ratio": 1.3977204020153753,
+          "mean_reads": 1.68310546875,
+          "paired_95_pct_ci": [
+            0.03246925565904199,
+            0.04263512053659674
+          ],
+          "standard_error": 0.0025933328769272325
+        }
+      },
+      "log_minimax_ratio_1.25": {
+        "exact": {
+          "accuracy": 0.5777289555053488,
+          "excess_log_loss": 0.0,
+          "log_loss": 1.0527467487384232,
+          "mean_reads": 2.0000000000000004
+        },
+        "simulation": {
+          "accuracy": 0.578857421875,
+          "excess_log_loss": 0.0,
+          "label_disagreements": 0,
+          "log_loss": 1.0537756407625862,
+          "max_realised_ratio": 1.0,
+          "mean_reads": 2.0,
+          "paired_95_pct_ci": [
+            0.0,
+            0.0
+          ],
+          "standard_error": 0.0
+        }
+      },
+      "log_minimax_ratio_1.50": {
+        "exact": {
+          "accuracy": 0.5777289555053488,
+          "excess_log_loss": 0.04267268105230304,
+          "log_loss": 1.0954194297907263,
+          "mean_reads": 1.6824000000000006
+        },
+        "simulation": {
+          "accuracy": 0.578857421875,
+          "excess_log_loss": 0.037552188097819364,
+          "label_disagreements": 0,
+          "log_loss": 1.0913278288604056,
+          "max_realised_ratio": 1.3977204020153753,
+          "mean_reads": 1.68310546875,
+          "paired_95_pct_ci": [
+            0.03246925565904199,
+            0.04263512053659674
+          ],
+          "standard_error": 0.0025933328769272325
+        }
+      },
+      "matched_precommit": {
+        "exact": {
+          "accuracy": 0.5694687714687515,
+          "excess_log_loss": 0.026636020545474537,
+          "log_loss": 1.0793827692838978,
+          "mean_reads": 1.6492000000000004
+        },
+        "simulation": {
+          "accuracy": 0.5699462890625,
+          "excess_log_loss": 0.026275708390436827,
+          "label_disagreements": 790,
+          "log_loss": 1.080051349153023,
+          "max_realised_ratio": 2.231412708612072,
+          "mean_reads": 1.646240234375,
+          "paired_95_pct_ci": [
+            0.021552859667099876,
+            0.030998557113773778
+          ],
+          "standard_error": 0.002409616695580076
+        }
+      },
+      "uniform": {
+        "exact": {
+          "accuracy": 0.5777289555053488,
+          "excess_log_loss": 0.03130538102522351,
+          "log_loss": 1.0840521297636467,
+          "mean_reads": 1.6824000000000006
+        },
+        "simulation": {
+          "accuracy": 0.578857421875,
+          "excess_log_loss": 0.02688395802716634,
+          "label_disagreements": 0,
+          "log_loss": 1.0806595987897525,
+          "max_realised_ratio": 1.8684187774980892,
+          "mean_reads": 1.68310546875,
+          "paired_95_pct_ci": [
+            0.02226340540031739,
+            0.03150451065401529
+          ],
+          "standard_error": 0.0023574248096168123
+        }
+      },
+      "uniform_ratio_1.25": {
+        "exact": {
+          "accuracy": 0.5777289555053488,
+          "excess_log_loss": 0.0,
+          "log_loss": 1.0527467487384232,
+          "mean_reads": 2.0000000000000004
+        },
+        "simulation": {
+          "accuracy": 0.578857421875,
+          "excess_log_loss": 0.0,
+          "label_disagreements": 0,
+          "log_loss": 1.0537756407625862,
+          "max_realised_ratio": 1.0,
+          "mean_reads": 2.0,
+          "paired_95_pct_ci": [
+            0.0,
+            0.0
+          ],
+          "standard_error": 0.0
+        }
+      },
+      "uniform_ratio_1.50": {
+        "exact": {
+          "accuracy": 0.5777289555053488,
+          "excess_log_loss": 0.0,
+          "log_loss": 1.0527467487384232,
+          "mean_reads": 2.0000000000000004
+        },
+        "simulation": {
+          "accuracy": 0.578857421875,
+          "excess_log_loss": 0.0,
+          "label_disagreements": 0,
+          "log_loss": 1.0537756407625862,
+          "max_realised_ratio": 1.0,
+          "mean_reads": 2.0,
+          "paired_95_pct_ci": [
+            0.0,
+            0.0
+          ],
+          "standard_error": 0.0
+        }
+      }
+    },
+    "moderate_attenuation": {
+      "bayes": {
+        "exact": {
+          "accuracy": 0.5431756499546988,
+          "excess_log_loss": 0.023327600839518237,
+          "log_loss": 1.144837043097016,
+          "mean_reads": 1.664
+        },
+        "simulation": {
+          "accuracy": 0.543212890625,
+          "excess_log_loss": 0.020384808136535093,
+          "label_disagreements": 0,
+          "log_loss": 1.1483355988184476,
+          "max_realised_ratio": 2.4155806892638494,
+          "mean_reads": 1.6624755859375,
+          "paired_95_pct_ci": [
+            0.014646340581156023,
+            0.026123275691914163
+          ],
+          "standard_error": 0.002927789569070954
+        }
+      },
+      "bayes_ratio_1.25": {
+        "exact": {
+          "accuracy": 0.5431756499546987,
+          "excess_log_loss": 0.0,
+          "log_loss": 1.1215094422574978,
+          "mean_reads": 2.0
+        },
+        "simulation": {
+          "accuracy": 0.543212890625,
+          "excess_log_loss": 0.0,
+          "label_disagreements": 0,
+          "log_loss": 1.1279507906819122,
+          "max_realised_ratio": 1.0,
+          "mean_reads": 2.0,
+          "paired_95_pct_ci": [
+            0.0,
+            0.0
+          ],
+          "standard_error": 0.0
+        }
+      },
+      "bayes_ratio_1.50": {
+        "exact": {
+          "accuracy": 0.5431756499546987,
+          "excess_log_loss": 0.0,
+          "log_loss": 1.1215094422574978,
+          "mean_reads": 2.0
+        },
+        "simulation": {
+          "accuracy": 0.543212890625,
+          "excess_log_loss": 0.0,
+          "label_disagreements": 0,
+          "log_loss": 1.1279507906819122,
+          "max_realised_ratio": 1.0,
+          "mean_reads": 2.0,
+          "paired_95_pct_ci": [
+            0.0,
+            0.0
+          ],
+          "standard_error": 0.0
+        }
+      },
+      "brier_minimax": {
+        "exact": {
+          "accuracy": 0.5431756499546988,
+          "excess_log_loss": 0.03372248190766647,
+          "log_loss": 1.1552319241651643,
+          "mean_reads": 1.664
+        },
+        "simulation": {
+          "accuracy": 0.543212890625,
+          "excess_log_loss": 0.03197839217903653,
+          "label_disagreements": 0,
+          "log_loss": 1.1599291828609486,
+          "max_realised_ratio": 1.9104515300369913,
+          "mean_reads": 1.6624755859375,
+          "paired_95_pct_ci": [
+            0.025347602359790184,
+            0.03860918199828287
+          ],
+          "standard_error": 0.003383056030227727
+        }
+      },
+      "brier_minimax_ratio_1.25": {
+        "exact": {
+          "accuracy": 0.5431756499546987,
+          "excess_log_loss": 0.0,
+          "log_loss": 1.1215094422574978,
+          "mean_reads": 2.0
+        },
+        "simulation": {
+          "accuracy": 0.543212890625,
+          "excess_log_loss": 0.0,
+          "label_disagreements": 0,
+          "log_loss": 1.1279507906819122,
+          "max_realised_ratio": 1.0,
+          "mean_reads": 2.0,
+          "paired_95_pct_ci": [
+            0.0,
+            0.0
+          ],
+          "standard_error": 0.0
+        }
+      },
+      "brier_minimax_ratio_1.50": {
+        "exact": {
+          "accuracy": 0.5431756499546987,
+          "excess_log_loss": 0.0,
+          "log_loss": 1.1215094422574978,
+          "mean_reads": 2.0
+        },
+        "simulation": {
+          "accuracy": 0.543212890625,
+          "excess_log_loss": 0.0,
+          "label_disagreements": 0,
+          "log_loss": 1.1279507906819122,
+          "max_realised_ratio": 1.0,
+          "mean_reads": 2.0,
+          "paired_95_pct_ci": [
+            0.0,
+            0.0
+          ],
+          "standard_error": 0.0
+        }
+      },
+      "full_reference": {
+        "exact": {
+          "accuracy": 0.5431756499546987,
+          "excess_log_loss": 0.0,
+          "log_loss": 1.1215094422574978,
+          "mean_reads": 2.0
+        },
+        "simulation": {
+          "accuracy": 0.543212890625,
+          "excess_log_loss": 0.0,
+          "label_disagreements": 0,
+          "log_loss": 1.1279507906819122,
+          "max_realised_ratio": 1.0,
+          "mean_reads": 2.0,
+          "paired_95_pct_ci": [
+            0.0,
+            0.0
+          ],
+          "standard_error": 0.0
+        }
+      },
+      "log_minimax": {
+        "exact": {
+          "accuracy": 0.5431756499546988,
+          "excess_log_loss": 0.02583183077540574,
+          "log_loss": 1.1473412730329036,
+          "mean_reads": 1.664
+        },
+        "simulation": {
+          "accuracy": 0.543212890625,
+          "excess_log_loss": 0.023020502734714628,
+          "label_disagreements": 0,
+          "log_loss": 1.150971293416627,
+          "max_realised_ratio": 1.3977204020153753,
+          "mean_reads": 1.6624755859375,
+          "paired_95_pct_ci": [
+            0.01698545036264946,
+            0.029055555106779794
+          ],
+          "standard_error": 0.003079108353094472
+        }
+      },
+      "log_minimax_ratio_1.25": {
+        "exact": {
+          "accuracy": 0.5431756499546987,
+          "excess_log_loss": 0.0,
+          "log_loss": 1.1215094422574978,
+          "mean_reads": 2.0
+        },
+        "simulation": {
+          "accuracy": 0.543212890625,
+          "excess_log_loss": 0.0,
+          "label_disagreements": 0,
+          "log_loss": 1.1279507906819122,
+          "max_realised_ratio": 1.0,
+          "mean_reads": 2.0,
+          "paired_95_pct_ci": [
+            0.0,
+            0.0
+          ],
+          "standard_error": 0.0
+        }
+      },
+      "log_minimax_ratio_1.50": {
+        "exact": {
+          "accuracy": 0.5431756499546988,
+          "excess_log_loss": 0.02583183077540574,
+          "log_loss": 1.1473412730329036,
+          "mean_reads": 1.664
+        },
+        "simulation": {
+          "accuracy": 0.543212890625,
+          "excess_log_loss": 0.023020502734714628,
+          "label_disagreements": 0,
+          "log_loss": 1.150971293416627,
+          "max_realised_ratio": 1.3977204020153753,
+          "mean_reads": 1.6624755859375,
+          "paired_95_pct_ci": [
+            0.01698545036264946,
+            0.029055555106779794
+          ],
+          "standard_error": 0.003079108353094472
+        }
+      },
+      "matched_precommit": {
+        "exact": {
+          "accuracy": 0.5361859207318398,
+          "excess_log_loss": 0.020827911820936684,
+          "log_loss": 1.1423373540784345,
+          "mean_reads": 1.6491999999999998
+        },
+        "simulation": {
+          "accuracy": 0.5328369140625,
+          "excess_log_loss": 0.024262024261739852,
+          "label_disagreements": 1001,
+          "log_loss": 1.1522128149436521,
+          "max_realised_ratio": 2.231412708612072,
+          "mean_reads": 1.650146484375,
+          "paired_95_pct_ci": [
+            0.01887608087624767,
+            0.029647967647232033
+          ],
+          "standard_error": 0.0027479302987205
+        }
+      },
+      "uniform": {
+        "exact": {
+          "accuracy": 0.5431756499546988,
+          "excess_log_loss": 0.0209079833626844,
+          "log_loss": 1.1424174256201822,
+          "mean_reads": 1.664
+        },
+        "simulation": {
+          "accuracy": 0.543212890625,
+          "excess_log_loss": 0.017866398267846938,
+          "label_disagreements": 0,
+          "log_loss": 1.145817188949759,
+          "max_realised_ratio": 1.8684187774980892,
+          "mean_reads": 1.6624755859375,
+          "paired_95_pct_ci": [
+            0.012275668667238084,
+            0.02345712786845579
+          ],
+          "standard_error": 0.002852413061535129
+        }
+      },
+      "uniform_ratio_1.25": {
+        "exact": {
+          "accuracy": 0.5431756499546987,
+          "excess_log_loss": 0.0,
+          "log_loss": 1.1215094422574978,
+          "mean_reads": 2.0
+        },
+        "simulation": {
+          "accuracy": 0.543212890625,
+          "excess_log_loss": 0.0,
+          "label_disagreements": 0,
+          "log_loss": 1.1279507906819122,
+          "max_realised_ratio": 1.0,
+          "mean_reads": 2.0,
+          "paired_95_pct_ci": [
+            0.0,
+            0.0
+          ],
+          "standard_error": 0.0
+        }
+      },
+      "uniform_ratio_1.50": {
+        "exact": {
+          "accuracy": 0.5431756499546987,
+          "excess_log_loss": 0.0,
+          "log_loss": 1.1215094422574978,
+          "mean_reads": 2.0
+        },
+        "simulation": {
+          "accuracy": 0.543212890625,
+          "excess_log_loss": 0.0,
+          "label_disagreements": 0,
+          "log_loss": 1.1279507906819122,
+          "max_realised_ratio": 1.0,
+          "mean_reads": 2.0,
+          "paired_95_pct_ci": [
+            0.0,
+            0.0
+          ],
+          "standard_error": 0.0
+        }
+      }
+    },
+    "moderate_guide_drift": {
+      "bayes": {
+        "exact": {
+          "accuracy": 0.5250455309978954,
+          "excess_log_loss": 0.03131783598540139,
+          "log_loss": 1.181726435147803,
+          "mean_reads": 1.62289
+        },
+        "simulation": {
+          "accuracy": 0.5233154296875,
+          "excess_log_loss": 0.02967504481606538,
+          "label_disagreements": 0,
+          "log_loss": 1.1860646921019349,
+          "max_realised_ratio": 2.4155806892638494,
+          "mean_reads": 1.621337890625,
+          "paired_95_pct_ci": [
+            0.024333709475904543,
+            0.03501638015622621
+          ],
+          "standard_error": 0.002725171091918794
+        }
+      },
+      "bayes_ratio_1.25": {
+        "exact": {
+          "accuracy": 0.5250455309978954,
+          "excess_log_loss": 0.0,
+          "log_loss": 1.1504085991624016,
+          "mean_reads": 1.9999999999999998
+        },
+        "simulation": {
+          "accuracy": 0.5233154296875,
+          "excess_log_loss": 0.0,
+          "label_disagreements": 0,
+          "log_loss": 1.1563896472858692,
+          "max_realised_ratio": 1.0,
+          "mean_reads": 2.0,
+          "paired_95_pct_ci": [
+            0.0,
+            0.0
+          ],
+          "standard_error": 0.0
+        }
+      },
+      "bayes_ratio_1.50": {
+        "exact": {
+          "accuracy": 0.5250455309978954,
+          "excess_log_loss": 0.0,
+          "log_loss": 1.1504085991624016,
+          "mean_reads": 1.9999999999999998
+        },
+        "simulation": {
+          "accuracy": 0.5233154296875,
+          "excess_log_loss": 0.0,
+          "label_disagreements": 0,
+          "log_loss": 1.1563896472858692,
+          "max_realised_ratio": 1.0,
+          "mean_reads": 2.0,
+          "paired_95_pct_ci": [
+            0.0,
+            0.0
+          ],
+          "standard_error": 0.0
+        }
+      },
+      "brier_minimax": {
+        "exact": {
+          "accuracy": 0.5250455309978954,
+          "excess_log_loss": 0.06953346055244225,
+          "log_loss": 1.2199420597148438,
+          "mean_reads": 1.62289
+        },
+        "simulation": {
+          "accuracy": 0.5233154296875,
+          "excess_log_loss": 0.07194305526544129,
+          "label_disagreements": 0,
+          "log_loss": 1.2283327025513104,
+          "max_realised_ratio": 1.9104515300369913,
+          "mean_reads": 1.621337890625,
+          "paired_95_pct_ci": [
+            0.06575572758481618,
+            0.07813038294606639
+          ],
+          "standard_error": 0.003156799837053622
+        }
+      },
+      "brier_minimax_ratio_1.25": {
+        "exact": {
+          "accuracy": 0.5250455309978954,
+          "excess_log_loss": 0.0,
+          "log_loss": 1.1504085991624016,
+          "mean_reads": 1.9999999999999998
+        },
+        "simulation": {
+          "accuracy": 0.5233154296875,
+          "excess_log_loss": 0.0,
+          "label_disagreements": 0,
+          "log_loss": 1.1563896472858692,
+          "max_realised_ratio": 1.0,
+          "mean_reads": 2.0,
+          "paired_95_pct_ci": [
+            0.0,
+            0.0
+          ],
+          "standard_error": 0.0
+        }
+      },
+      "brier_minimax_ratio_1.50": {
+        "exact": {
+          "accuracy": 0.5250455309978954,
+          "excess_log_loss": 0.0,
+          "log_loss": 1.1504085991624016,
+          "mean_reads": 1.9999999999999998
+        },
+        "simulation": {
+          "accuracy": 0.5233154296875,
+          "excess_log_loss": 0.0,
+          "label_disagreements": 0,
+          "log_loss": 1.1563896472858692,
+          "max_realised_ratio": 1.0,
+          "mean_reads": 2.0,
+          "paired_95_pct_ci": [
+            0.0,
+            0.0
+          ],
+          "standard_error": 0.0
+        }
+      },
+      "full_reference": {
+        "exact": {
+          "accuracy": 0.5250455309978954,
+          "excess_log_loss": 0.0,
+          "log_loss": 1.1504085991624016,
+          "mean_reads": 1.9999999999999998
+        },
+        "simulation": {
+          "accuracy": 0.5233154296875,
+          "excess_log_loss": 0.0,
+          "label_disagreements": 0,
+          "log_loss": 1.1563896472858692,
+          "max_realised_ratio": 1.0,
+          "mean_reads": 2.0,
+          "paired_95_pct_ci": [
+            0.0,
+            0.0
+          ],
+          "standard_error": 0.0
+        }
+      },
+      "log_minimax": {
+        "exact": {
+          "accuracy": 0.5250455309978954,
+          "excess_log_loss": 0.04648067189220395,
+          "log_loss": 1.1968892710546055,
+          "mean_reads": 1.62289
+        },
+        "simulation": {
+          "accuracy": 0.5233154296875,
+          "excess_log_loss": 0.04660285035235757,
+          "label_disagreements": 0,
+          "log_loss": 1.202992497638227,
+          "max_realised_ratio": 1.3977204020153753,
+          "mean_reads": 1.621337890625,
+          "paired_95_pct_ci": [
+            0.04107311112099863,
+            0.052132589583716506
+          ],
+          "standard_error": 0.002821295526203539
+        }
+      },
+      "log_minimax_ratio_1.25": {
+        "exact": {
+          "accuracy": 0.5250455309978954,
+          "excess_log_loss": 0.0,
+          "log_loss": 1.1504085991624016,
+          "mean_reads": 1.9999999999999998
+        },
+        "simulation": {
+          "accuracy": 0.5233154296875,
+          "excess_log_loss": 0.0,
+          "label_disagreements": 0,
+          "log_loss": 1.1563896472858692,
+          "max_realised_ratio": 1.0,
+          "mean_reads": 2.0,
+          "paired_95_pct_ci": [
+            0.0,
+            0.0
+          ],
+          "standard_error": 0.0
+        }
+      },
+      "log_minimax_ratio_1.50": {
+        "exact": {
+          "accuracy": 0.5250455309978954,
+          "excess_log_loss": 0.04648067189220395,
+          "log_loss": 1.1968892710546055,
+          "mean_reads": 1.62289
+        },
+        "simulation": {
+          "accuracy": 0.5233154296875,
+          "excess_log_loss": 0.04660285035235757,
+          "label_disagreements": 0,
+          "log_loss": 1.202992497638227,
+          "max_realised_ratio": 1.3977204020153753,
+          "mean_reads": 1.621337890625,
+          "paired_95_pct_ci": [
+            0.04107311112099863,
+            0.052132589583716506
+          ],
+          "standard_error": 0.002821295526203539
+        }
+      },
+      "matched_precommit": {
+        "exact": {
+          "accuracy": 0.5188004008994406,
+          "excess_log_loss": 0.02580588572201936,
+          "log_loss": 1.176214484884421,
+          "mean_reads": 1.6667399999999997
+        },
+        "simulation": {
+          "accuracy": 0.5123291015625,
+          "excess_log_loss": 0.02768346121396277,
+          "label_disagreements": 831,
+          "log_loss": 1.1840731084998324,
+          "max_realised_ratio": 2.231412708612072,
+          "mean_reads": 1.66748046875,
+          "paired_95_pct_ci": [
+            0.02278486312032382,
+            0.03258205930760172
+          ],
+          "standard_error": 0.0024992847416525263
+        }
+      },
+      "uniform": {
+        "exact": {
+          "accuracy": 0.5250455309978954,
+          "excess_log_loss": 0.030525129721408195,
+          "log_loss": 1.1809337288838098,
+          "mean_reads": 1.62289
+        },
+        "simulation": {
+          "accuracy": 0.5233154296875,
+          "excess_log_loss": 0.029539500970413194,
+          "label_disagreements": 0,
+          "log_loss": 1.1859291482562826,
+          "max_realised_ratio": 1.8684187774980892,
+          "mean_reads": 1.621337890625,
+          "paired_95_pct_ci": [
+            0.024389948835361594,
+            0.034689053105464794
+          ],
+          "standard_error": 0.0026273225178834684
+        }
+      },
+      "uniform_ratio_1.25": {
+        "exact": {
+          "accuracy": 0.5250455309978954,
+          "excess_log_loss": 0.0,
+          "log_loss": 1.1504085991624016,
+          "mean_reads": 1.9999999999999998
+        },
+        "simulation": {
+          "accuracy": 0.5233154296875,
+          "excess_log_loss": 0.0,
+          "label_disagreements": 0,
+          "log_loss": 1.1563896472858692,
+          "max_realised_ratio": 1.0,
+          "mean_reads": 2.0,
+          "paired_95_pct_ci": [
+            0.0,
+            0.0
+          ],
+          "standard_error": 0.0
+        }
+      },
+      "uniform_ratio_1.50": {
+        "exact": {
+          "accuracy": 0.5250455309978954,
+          "excess_log_loss": 0.0,
+          "log_loss": 1.1504085991624016,
+          "mean_reads": 1.9999999999999998
+        },
+        "simulation": {
+          "accuracy": 0.5233154296875,
+          "excess_log_loss": 0.0,
+          "label_disagreements": 0,
+          "log_loss": 1.1563896472858692,
+          "max_realised_ratio": 1.0,
+          "mean_reads": 2.0,
+          "paired_95_pct_ci": [
+            0.0,
+            0.0
+          ],
+          "standard_error": 0.0
+        }
+      }
+    },
+    "nominal": {
+      "bayes": {
+        "exact": {
+          "accuracy": 0.5836838870933942,
+          "excess_log_loss": 0.03197378086090508,
+          "log_loss": 1.075609635523564,
+          "mean_reads": 1.6492
+        },
+        "simulation": {
+          "accuracy": 0.578125,
+          "excess_log_loss": 0.03163048657299744,
+          "label_disagreements": 0,
+          "log_loss": 1.0800069932861758,
+          "max_realised_ratio": 2.4155806892638494,
+          "mean_reads": 1.6494140625,
+          "paired_95_pct_ci": [
+            0.02624620020458001,
+            0.03701477294141487
+          ],
+          "standard_error": 0.002747084881845629
+        }
+      },
+      "bayes_ratio_1.25": {
+        "exact": {
+          "accuracy": 0.5836838870933942,
+          "excess_log_loss": 0.0,
+          "log_loss": 1.043635854662659,
+          "mean_reads": 2.0
+        },
+        "simulation": {
+          "accuracy": 0.578125,
+          "excess_log_loss": 0.0,
+          "label_disagreements": 0,
+          "log_loss": 1.0483765067131783,
+          "max_realised_ratio": 1.0,
+          "mean_reads": 2.0,
+          "paired_95_pct_ci": [
+            0.0,
+            0.0
+          ],
+          "standard_error": 0.0
+        }
+      },
+      "bayes_ratio_1.50": {
+        "exact": {
+          "accuracy": 0.5836838870933942,
+          "excess_log_loss": 0.0,
+          "log_loss": 1.043635854662659,
+          "mean_reads": 2.0
+        },
+        "simulation": {
+          "accuracy": 0.578125,
+          "excess_log_loss": 0.0,
+          "label_disagreements": 0,
+          "log_loss": 1.0483765067131783,
+          "max_realised_ratio": 1.0,
+          "mean_reads": 2.0,
+          "paired_95_pct_ci": [
+            0.0,
+            0.0
+          ],
+          "standard_error": 0.0
+        }
+      },
+      "brier_minimax": {
+        "exact": {
+          "accuracy": 0.5836838870933942,
+          "excess_log_loss": 0.05639157419838314,
+          "log_loss": 1.100027428861042,
+          "mean_reads": 1.6492
+        },
+        "simulation": {
+          "accuracy": 0.578125,
+          "excess_log_loss": 0.05440573514402917,
+          "label_disagreements": 0,
+          "log_loss": 1.1027822418572073,
+          "max_realised_ratio": 1.9104515300369913,
+          "mean_reads": 1.6494140625,
+          "paired_95_pct_ci": [
+            0.04840291081682953,
+            0.06040855947122881
+          ],
+          "standard_error": 0.0030626654730610413
+        }
+      },
+      "brier_minimax_ratio_1.25": {
+        "exact": {
+          "accuracy": 0.5836838870933942,
+          "excess_log_loss": 0.0,
+          "log_loss": 1.043635854662659,
+          "mean_reads": 2.0
+        },
+        "simulation": {
+          "accuracy": 0.578125,
+          "excess_log_loss": 0.0,
+          "label_disagreements": 0,
+          "log_loss": 1.0483765067131783,
+          "max_realised_ratio": 1.0,
+          "mean_reads": 2.0,
+          "paired_95_pct_ci": [
+            0.0,
+            0.0
+          ],
+          "standard_error": 0.0
+        }
+      },
+      "brier_minimax_ratio_1.50": {
+        "exact": {
+          "accuracy": 0.5836838870933942,
+          "excess_log_loss": 0.0,
+          "log_loss": 1.043635854662659,
+          "mean_reads": 2.0
+        },
+        "simulation": {
+          "accuracy": 0.578125,
+          "excess_log_loss": 0.0,
+          "label_disagreements": 0,
+          "log_loss": 1.0483765067131783,
+          "max_realised_ratio": 1.0,
+          "mean_reads": 2.0,
+          "paired_95_pct_ci": [
+            0.0,
+            0.0
+          ],
+          "standard_error": 0.0
+        }
+      },
+      "full_reference": {
+        "exact": {
+          "accuracy": 0.5836838870933942,
+          "excess_log_loss": 0.0,
+          "log_loss": 1.043635854662659,
+          "mean_reads": 2.0
+        },
+        "simulation": {
+          "accuracy": 0.578125,
+          "excess_log_loss": 0.0,
+          "label_disagreements": 0,
+          "log_loss": 1.0483765067131783,
+          "max_realised_ratio": 1.0,
+          "mean_reads": 2.0,
+          "paired_95_pct_ci": [
+            0.0,
+            0.0
+          ],
+          "standard_error": 0.0
+        }
+      },
+      "log_minimax": {
+        "exact": {
+          "accuracy": 0.5836838870933942,
+          "excess_log_loss": 0.04600764051938522,
+          "log_loss": 1.0896434951820442,
+          "mean_reads": 1.6492
+        },
+        "simulation": {
+          "accuracy": 0.578125,
+          "excess_log_loss": 0.04421280712743844,
+          "label_disagreements": 0,
+          "log_loss": 1.0925893138406169,
+          "max_realised_ratio": 1.3977204020153753,
+          "mean_reads": 1.6494140625,
+          "paired_95_pct_ci": [
+            0.0386794238124725,
+            0.04974619044240438
+          ],
+          "standard_error": 0.0028231547525336413
+        }
+      },
+      "log_minimax_ratio_1.25": {
+        "exact": {
+          "accuracy": 0.5836838870933942,
+          "excess_log_loss": 0.0,
+          "log_loss": 1.043635854662659,
+          "mean_reads": 2.0
+        },
+        "simulation": {
+          "accuracy": 0.578125,
+          "excess_log_loss": 0.0,
+          "label_disagreements": 0,
+          "log_loss": 1.0483765067131783,
+          "max_realised_ratio": 1.0,
+          "mean_reads": 2.0,
+          "paired_95_pct_ci": [
+            0.0,
+            0.0
+          ],
+          "standard_error": 0.0
+        }
+      },
+      "log_minimax_ratio_1.50": {
+        "exact": {
+          "accuracy": 0.5836838870933942,
+          "excess_log_loss": 0.04600764051938522,
+          "log_loss": 1.0896434951820442,
+          "mean_reads": 1.6492
+        },
+        "simulation": {
+          "accuracy": 0.578125,
+          "excess_log_loss": 0.04421280712743844,
+          "label_disagreements": 0,
+          "log_loss": 1.0925893138406169,
+          "max_realised_ratio": 1.3977204020153753,
+          "mean_reads": 1.6494140625,
+          "paired_95_pct_ci": [
+            0.0386794238124725,
+            0.04974619044240438
+          ],
+          "standard_error": 0.0028231547525336413
+        }
+      },
+      "matched_precommit": {
+        "exact": {
+          "accuracy": 0.5768159644570287,
+          "excess_log_loss": 0.029040619239226073,
+          "log_loss": 1.072676473901885,
+          "mean_reads": 1.6492
+        },
+        "simulation": {
+          "accuracy": 0.5679931640625,
+          "excess_log_loss": 0.03130180488993971,
+          "label_disagreements": 906,
+          "log_loss": 1.079678311603118,
+          "max_realised_ratio": 2.231412708612072,
+          "mean_reads": 1.6461181640625,
+          "paired_95_pct_ci": [
+            0.026324928382175046,
+            0.03627868139770437
+          ],
+          "standard_error": 0.0025392227080431947
+        }
+      },
+      "uniform": {
+        "exact": {
+          "accuracy": 0.5836838870933942,
+          "excess_log_loss": 0.034889438228099756,
+          "log_loss": 1.0785252928907587,
+          "mean_reads": 1.6492
+        },
+        "simulation": {
+          "accuracy": 0.578125,
+          "excess_log_loss": 0.033914357048258806,
+          "label_disagreements": 0,
+          "log_loss": 1.082290863761437,
+          "max_realised_ratio": 1.8684187774980892,
+          "mean_reads": 1.6494140625,
+          "paired_95_pct_ci": [
+            0.0287190733273913,
+            0.03910964076912631
+          ],
+          "standard_error": 0.0026506549596262796
+        }
+      },
+      "uniform_ratio_1.25": {
+        "exact": {
+          "accuracy": 0.5836838870933942,
+          "excess_log_loss": 0.0,
+          "log_loss": 1.043635854662659,
+          "mean_reads": 2.0
+        },
+        "simulation": {
+          "accuracy": 0.578125,
+          "excess_log_loss": 0.0,
+          "label_disagreements": 0,
+          "log_loss": 1.0483765067131783,
+          "max_realised_ratio": 1.0,
+          "mean_reads": 2.0,
+          "paired_95_pct_ci": [
+            0.0,
+            0.0
+          ],
+          "standard_error": 0.0
+        }
+      },
+      "uniform_ratio_1.50": {
+        "exact": {
+          "accuracy": 0.5836838870933942,
+          "excess_log_loss": 0.0,
+          "log_loss": 1.043635854662659,
+          "mean_reads": 2.0
+        },
+        "simulation": {
+          "accuracy": 0.578125,
+          "excess_log_loss": 0.0,
+          "label_disagreements": 0,
+          "log_loss": 1.0483765067131783,
+          "max_realised_ratio": 1.0,
+          "mean_reads": 2.0,
+          "paired_95_pct_ci": [
+            0.0,
+            0.0
+          ],
+          "standard_error": 0.0
+        }
+      }
+    },
+    "polarity_and_guide_shift": {
+      "bayes": {
+        "exact": {
+          "accuracy": 0.2288509326103501,
+          "excess_log_loss": -0.07196695831525335,
+          "log_loss": 1.7488622270654595,
+          "mean_reads": 1.600965
+        },
+        "simulation": {
+          "accuracy": 0.22509765625,
+          "excess_log_loss": -0.07476302157204412,
+          "label_disagreements": 0,
+          "log_loss": 1.7549567329610372,
+          "max_realised_ratio": 2.4155806892638494,
+          "mean_reads": 1.6070556640625,
+          "paired_95_pct_ci": [
+            -0.08388977208414222,
+            -0.06563627105994602
+          ],
+          "standard_error": 0.004656505363315356
+        }
+      },
+      "bayes_ratio_1.25": {
+        "exact": {
+          "accuracy": 0.2288509326103501,
+          "excess_log_loss": 0.0,
+          "log_loss": 1.8208291853807128,
+          "mean_reads": 1.9999999999999996
+        },
+        "simulation": {
+          "accuracy": 0.22509765625,
+          "excess_log_loss": 0.0,
+          "label_disagreements": 0,
+          "log_loss": 1.8297197545330812,
+          "max_realised_ratio": 1.0,
+          "mean_reads": 2.0,
+          "paired_95_pct_ci": [
+            0.0,
+            0.0
+          ],
+          "standard_error": 0.0
+        }
+      },
+      "bayes_ratio_1.50": {
+        "exact": {
+          "accuracy": 0.2288509326103501,
+          "excess_log_loss": 0.0,
+          "log_loss": 1.8208291853807128,
+          "mean_reads": 1.9999999999999996
+        },
+        "simulation": {
+          "accuracy": 0.22509765625,
+          "excess_log_loss": 0.0,
+          "label_disagreements": 0,
+          "log_loss": 1.8297197545330812,
+          "max_realised_ratio": 1.0,
+          "mean_reads": 2.0,
+          "paired_95_pct_ci": [
+            0.0,
+            0.0
+          ],
+          "standard_error": 0.0
+        }
+      },
+      "brier_minimax": {
+        "exact": {
+          "accuracy": 0.2288509326103501,
+          "excess_log_loss": -0.11668667074557959,
+          "log_loss": 1.7041425146351332,
+          "mean_reads": 1.600965
+        },
+        "simulation": {
+          "accuracy": 0.22509765625,
+          "excess_log_loss": -0.11888037233324247,
+          "label_disagreements": 0,
+          "log_loss": 1.7108393821998389,
+          "max_realised_ratio": 1.9104515300369913,
+          "mean_reads": 1.6070556640625,
+          "paired_95_pct_ci": [
+            -0.1315306120821786,
+            -0.10623013258430637
+          ],
+          "standard_error": 0.006454203953538828
+        }
+      },
+      "brier_minimax_ratio_1.25": {
+        "exact": {
+          "accuracy": 0.2288509326103501,
+          "excess_log_loss": 0.0,
+          "log_loss": 1.8208291853807128,
+          "mean_reads": 1.9999999999999996
+        },
+        "simulation": {
+          "accuracy": 0.22509765625,
+          "excess_log_loss": 0.0,
+          "label_disagreements": 0,
+          "log_loss": 1.8297197545330812,
+          "max_realised_ratio": 1.0,
+          "mean_reads": 2.0,
+          "paired_95_pct_ci": [
+            0.0,
+            0.0
+          ],
+          "standard_error": 0.0
+        }
+      },
+      "brier_minimax_ratio_1.50": {
+        "exact": {
+          "accuracy": 0.2288509326103501,
+          "excess_log_loss": 0.0,
+          "log_loss": 1.8208291853807128,
+          "mean_reads": 1.9999999999999996
+        },
+        "simulation": {
+          "accuracy": 0.22509765625,
+          "excess_log_loss": 0.0,
+          "label_disagreements": 0,
+          "log_loss": 1.8297197545330812,
+          "max_realised_ratio": 1.0,
+          "mean_reads": 2.0,
+          "paired_95_pct_ci": [
+            0.0,
+            0.0
+          ],
+          "standard_error": 0.0
+        }
+      },
+      "full_reference": {
+        "exact": {
+          "accuracy": 0.2288509326103501,
+          "excess_log_loss": 0.0,
+          "log_loss": 1.8208291853807128,
+          "mean_reads": 1.9999999999999996
+        },
+        "simulation": {
+          "accuracy": 0.22509765625,
+          "excess_log_loss": 0.0,
+          "label_disagreements": 0,
+          "log_loss": 1.8297197545330812,
+          "max_realised_ratio": 1.0,
+          "mean_reads": 2.0,
+          "paired_95_pct_ci": [
+            0.0,
+            0.0
+          ],
+          "standard_error": 0.0
+        }
+      },
+      "log_minimax": {
+        "exact": {
+          "accuracy": 0.2288509326103501,
+          "excess_log_loss": -0.13591706757117672,
+          "log_loss": 1.684912117809536,
+          "mean_reads": 1.600965
+        },
+        "simulation": {
+          "accuracy": 0.22509765625,
+          "excess_log_loss": -0.13738588184995468,
+          "label_disagreements": 0,
+          "log_loss": 1.6923338726831267,
+          "max_realised_ratio": 1.3977204020153753,
+          "mean_reads": 1.6070556640625,
+          "paired_95_pct_ci": [
+            -0.1487248095915776,
+            -0.12604695410833175
+          ],
+          "standard_error": 0.005785167215113738
+        }
+      },
+      "log_minimax_ratio_1.25": {
+        "exact": {
+          "accuracy": 0.2288509326103501,
+          "excess_log_loss": 0.0,
+          "log_loss": 1.8208291853807128,
+          "mean_reads": 1.9999999999999996
+        },
+        "simulation": {
+          "accuracy": 0.22509765625,
+          "excess_log_loss": 0.0,
+          "label_disagreements": 0,
+          "log_loss": 1.8297197545330812,
+          "max_realised_ratio": 1.0,
+          "mean_reads": 2.0,
+          "paired_95_pct_ci": [
+            0.0,
+            0.0
+          ],
+          "standard_error": 0.0
+        }
+      },
+      "log_minimax_ratio_1.50": {
+        "exact": {
+          "accuracy": 0.2288509326103501,
+          "excess_log_loss": -0.13591706757117672,
+          "log_loss": 1.684912117809536,
+          "mean_reads": 1.600965
+        },
+        "simulation": {
+          "accuracy": 0.22509765625,
+          "excess_log_loss": -0.13738588184995468,
+          "label_disagreements": 0,
+          "log_loss": 1.6923338726831267,
+          "max_realised_ratio": 1.3977204020153753,
+          "mean_reads": 1.6070556640625,
+          "paired_95_pct_ci": [
+            -0.1487248095915776,
+            -0.12604695410833175
+          ],
+          "standard_error": 0.005785167215113738
+        }
+      },
+      "matched_precommit": {
+        "exact": {
+          "accuracy": 0.23125479723694892,
+          "excess_log_loss": -0.05462263796148381,
+          "log_loss": 1.766206547419229,
+          "mean_reads": 1.6813566666666664
+        },
+        "simulation": {
+          "accuracy": 0.229248046875,
+          "excess_log_loss": -0.055796701136698615,
+          "label_disagreements": 1124,
+          "log_loss": 1.7739230533963828,
+          "max_realised_ratio": 2.231412708612072,
+          "mean_reads": 1.6781005859375,
+          "paired_95_pct_ci": [
+            -0.06330439278331843,
+            -0.04828900949007881
+          ],
+          "standard_error": 0.0038304549217447986
+        }
+      },
+      "uniform": {
+        "exact": {
+          "accuracy": 0.2288509326103501,
+          "excess_log_loss": -0.11354128816314324,
+          "log_loss": 1.7072878972175696,
+          "mean_reads": 1.600965
+        },
+        "simulation": {
+          "accuracy": 0.22509765625,
+          "excess_log_loss": -0.11565281998908802,
+          "label_disagreements": 0,
+          "log_loss": 1.7140669345439932,
+          "max_realised_ratio": 1.8684187774980892,
+          "mean_reads": 1.6070556640625,
+          "paired_95_pct_ci": [
+            -0.12548022652236096,
+            -0.10582541345581507
+          ],
+          "standard_error": 0.005013982925139258
+        }
+      },
+      "uniform_ratio_1.25": {
+        "exact": {
+          "accuracy": 0.2288509326103501,
+          "excess_log_loss": 0.0,
+          "log_loss": 1.8208291853807128,
+          "mean_reads": 1.9999999999999996
+        },
+        "simulation": {
+          "accuracy": 0.22509765625,
+          "excess_log_loss": 0.0,
+          "label_disagreements": 0,
+          "log_loss": 1.8297197545330812,
+          "max_realised_ratio": 1.0,
+          "mean_reads": 2.0,
+          "paired_95_pct_ci": [
+            0.0,
+            0.0
+          ],
+          "standard_error": 0.0
+        }
+      },
+      "uniform_ratio_1.50": {
+        "exact": {
+          "accuracy": 0.2288509326103501,
+          "excess_log_loss": 0.0,
+          "log_loss": 1.8208291853807128,
+          "mean_reads": 1.9999999999999996
+        },
+        "simulation": {
+          "accuracy": 0.22509765625,
+          "excess_log_loss": 0.0,
+          "label_disagreements": 0,
+          "log_loss": 1.8297197545330812,
+          "max_realised_ratio": 1.0,
+          "mean_reads": 2.0,
+          "paired_95_pct_ci": [
+            0.0,
+            0.0
+          ],
+          "standard_error": 0.0
+        }
+      }
+    },
+    "very_noisy_guide_and_sensor": {
+      "bayes": {
+        "exact": {
+          "accuracy": 0.3293307263560432,
+          "excess_log_loss": 0.005586172067100881,
+          "log_loss": 1.5163385871052235,
+          "mean_reads": 1.6680400000000002
+        },
+        "simulation": {
+          "accuracy": 0.331298828125,
+          "excess_log_loss": 0.008179391719948026,
+          "label_disagreements": 0,
+          "log_loss": 1.514936267618633,
+          "max_realised_ratio": 2.4155806892638494,
+          "mean_reads": 1.6658935546875,
+          "paired_95_pct_ci": [
+            0.002670057042691878,
+            0.013688726397204174
+          ],
+          "standard_error": 0.0028108850394164024
+        }
+      },
+      "bayes_ratio_1.25": {
+        "exact": {
+          "accuracy": 0.3293307263560432,
+          "excess_log_loss": 0.0,
+          "log_loss": 1.5107524150381226,
+          "mean_reads": 2.0
+        },
+        "simulation": {
+          "accuracy": 0.331298828125,
+          "excess_log_loss": 0.0,
+          "label_disagreements": 0,
+          "log_loss": 1.5067568758986851,
+          "max_realised_ratio": 1.0,
+          "mean_reads": 2.0,
+          "paired_95_pct_ci": [
+            0.0,
+            0.0
+          ],
+          "standard_error": 0.0
+        }
+      },
+      "bayes_ratio_1.50": {
+        "exact": {
+          "accuracy": 0.3293307263560432,
+          "excess_log_loss": 0.0,
+          "log_loss": 1.5107524150381226,
+          "mean_reads": 2.0
+        },
+        "simulation": {
+          "accuracy": 0.331298828125,
+          "excess_log_loss": 0.0,
+          "label_disagreements": 0,
+          "log_loss": 1.5067568758986851,
+          "max_realised_ratio": 1.0,
+          "mean_reads": 2.0,
+          "paired_95_pct_ci": [
+            0.0,
+            0.0
+          ],
+          "standard_error": 0.0
+        }
+      },
+      "brier_minimax": {
+        "exact": {
+          "accuracy": 0.3293307263560432,
+          "excess_log_loss": 0.027411398605537984,
+          "log_loss": 1.5381638136436606,
+          "mean_reads": 1.6680400000000002
+        },
+        "simulation": {
+          "accuracy": 0.331298828125,
+          "excess_log_loss": 0.028301513979435856,
+          "label_disagreements": 0,
+          "log_loss": 1.535058389878121,
+          "max_realised_ratio": 1.9104515300369913,
+          "mean_reads": 1.6658935546875,
+          "paired_95_pct_ci": [
+            0.021121422741564082,
+            0.03548160521730763
+          ],
+          "standard_error": 0.003663311856057028
+        }
+      },
+      "brier_minimax_ratio_1.25": {
+        "exact": {
+          "accuracy": 0.3293307263560432,
+          "excess_log_loss": 0.0,
+          "log_loss": 1.5107524150381226,
+          "mean_reads": 2.0
+        },
+        "simulation": {
+          "accuracy": 0.331298828125,
+          "excess_log_loss": 0.0,
+          "label_disagreements": 0,
+          "log_loss": 1.5067568758986851,
+          "max_realised_ratio": 1.0,
+          "mean_reads": 2.0,
+          "paired_95_pct_ci": [
+            0.0,
+            0.0
+          ],
+          "standard_error": 0.0
+        }
+      },
+      "brier_minimax_ratio_1.50": {
+        "exact": {
+          "accuracy": 0.3293307263560432,
+          "excess_log_loss": 0.0,
+          "log_loss": 1.5107524150381226,
+          "mean_reads": 2.0
+        },
+        "simulation": {
+          "accuracy": 0.331298828125,
+          "excess_log_loss": 0.0,
+          "label_disagreements": 0,
+          "log_loss": 1.5067568758986851,
+          "max_realised_ratio": 1.0,
+          "mean_reads": 2.0,
+          "paired_95_pct_ci": [
+            0.0,
+            0.0
+          ],
+          "standard_error": 0.0
+        }
+      },
+      "full_reference": {
+        "exact": {
+          "accuracy": 0.3293307263560432,
+          "excess_log_loss": 0.0,
+          "log_loss": 1.5107524150381226,
+          "mean_reads": 2.0
+        },
+        "simulation": {
+          "accuracy": 0.331298828125,
+          "excess_log_loss": 0.0,
+          "label_disagreements": 0,
+          "log_loss": 1.5067568758986851,
+          "max_realised_ratio": 1.0,
+          "mean_reads": 2.0,
+          "paired_95_pct_ci": [
+            0.0,
+            0.0
+          ],
+          "standard_error": 0.0
+        }
+      },
+      "log_minimax": {
+        "exact": {
+          "accuracy": 0.3293307263560432,
+          "excess_log_loss": -0.0040419563964517735,
+          "log_loss": 1.5067104586416709,
+          "mean_reads": 1.6680400000000002
+        },
+        "simulation": {
+          "accuracy": 0.331298828125,
+          "excess_log_loss": -0.0027785570773069517,
+          "label_disagreements": 0,
+          "log_loss": 1.503978318821378,
+          "max_realised_ratio": 1.3977204020153753,
+          "mean_reads": 1.6658935546875,
+          "paired_95_pct_ci": [
+            -0.008982475565457256,
+            0.0034253614108433524
+          ],
+          "standard_error": 0.0031652645347705634
+        }
+      },
+      "log_minimax_ratio_1.25": {
+        "exact": {
+          "accuracy": 0.3293307263560432,
+          "excess_log_loss": 0.0,
+          "log_loss": 1.5107524150381226,
+          "mean_reads": 2.0
+        },
+        "simulation": {
+          "accuracy": 0.331298828125,
+          "excess_log_loss": 0.0,
+          "label_disagreements": 0,
+          "log_loss": 1.5067568758986851,
+          "max_realised_ratio": 1.0,
+          "mean_reads": 2.0,
+          "paired_95_pct_ci": [
+            0.0,
+            0.0
+          ],
+          "standard_error": 0.0
+        }
+      },
+      "log_minimax_ratio_1.50": {
+        "exact": {
+          "accuracy": 0.3293307263560432,
+          "excess_log_loss": -0.0040419563964517735,
+          "log_loss": 1.5067104586416709,
+          "mean_reads": 1.6680400000000002
+        },
+        "simulation": {
+          "accuracy": 0.331298828125,
+          "excess_log_loss": -0.0027785570773069517,
+          "label_disagreements": 0,
+          "log_loss": 1.503978318821378,
+          "max_realised_ratio": 1.3977204020153753,
+          "mean_reads": 1.6658935546875,
+          "paired_95_pct_ci": [
+            -0.008982475565457256,
+            0.0034253614108433524
+          ],
+          "standard_error": 0.0031652645347705634
+        }
+      },
+      "matched_precommit": {
+        "exact": {
+          "accuracy": 0.3253224985791224,
+          "excess_log_loss": 0.0006099774427030802,
+          "log_loss": 1.5113623924808257,
+          "mean_reads": 1.697435
+        },
+        "simulation": {
+          "accuracy": 0.3216552734375,
+          "excess_log_loss": 0.003442733480963562,
+          "label_disagreements": 821,
+          "log_loss": 1.5101996093796486,
+          "max_realised_ratio": 2.231412708612072,
+          "mean_reads": 1.698974609375,
+          "paired_95_pct_ci": [
+            -0.0013735697275822924,
+            0.008259036689509416
+          ],
+          "standard_error": 0.0024572975553805378
+        }
+      },
+      "uniform": {
+        "exact": {
+          "accuracy": 0.3293307263560432,
+          "excess_log_loss": -0.010906832153722457,
+          "log_loss": 1.4998455828844002,
+          "mean_reads": 1.6680400000000002
+        },
+        "simulation": {
+          "accuracy": 0.331298828125,
+          "excess_log_loss": -0.008783846581192245,
+          "label_disagreements": 0,
+          "log_loss": 1.4979730293174927,
+          "max_realised_ratio": 1.8684187774980892,
+          "mean_reads": 1.6658935546875,
+          "paired_95_pct_ci": [
+            -0.014251006877019464,
+            -0.003316686285365026
+          ],
+          "standard_error": 0.00278936749787103
+        }
+      },
+      "uniform_ratio_1.25": {
+        "exact": {
+          "accuracy": 0.3293307263560432,
+          "excess_log_loss": 0.0,
+          "log_loss": 1.5107524150381226,
+          "mean_reads": 2.0
+        },
+        "simulation": {
+          "accuracy": 0.331298828125,
+          "excess_log_loss": 0.0,
+          "label_disagreements": 0,
+          "log_loss": 1.5067568758986851,
+          "max_realised_ratio": 1.0,
+          "mean_reads": 2.0,
+          "paired_95_pct_ci": [
+            0.0,
+            0.0
+          ],
+          "standard_error": 0.0
+        }
+      },
+      "uniform_ratio_1.50": {
+        "exact": {
+          "accuracy": 0.3293307263560432,
+          "excess_log_loss": 0.0,
+          "log_loss": 1.5107524150381226,
+          "mean_reads": 2.0
+        },
+        "simulation": {
+          "accuracy": 0.331298828125,
+          "excess_log_loss": 0.0,
+          "label_disagreements": 0,
+          "log_loss": 1.5067568758986851,
+          "max_realised_ratio": 1.0,
+          "mean_reads": 2.0,
+          "paired_95_pct_ci": [
+            0.0,
+            0.0
+          ],
+          "standard_error": 0.0
+        }
+      }
+    }
+  },
+  "implementation_audit": {
+    "binary_sharp_ratio": 1.3,
+    "random_stable_frontiers": 128,
+    "rivals_per_frontier": 8
+  },
+  "independent_paired_windows_per_family": 8192,
+  "matched_precommit_dispatch_weights_by_guide_and_read_count": [
+    [
+      0.0,
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      0.5846666666666669,
+      0.4153333333333331
+    ]
+  ],
+  "pathwise_audits": {
+    "bayes": {
+      "attempts_saved_on_each_reference_path": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "reference_paths": 18,
+      "stops_by_guide": [
+        [
+          {
+            "attaining_descendant": 1,
+            "attaining_endpoint_class": 1,
+            "full_forecasts": [
+              [
+                0.052506514650920835,
+                0.04633065392355711,
+                0.12613852705073614,
+                0.775024304374786
+              ],
+              [
+                0.1261264980673451,
+                0.3608409276951258,
+                0.1357286718781182,
+                0.3773039023594109
+              ],
+              [
+                0.0786404489838548,
+                0.1722075148250663,
+                0.12642355101614516,
+                0.6227284851749337
+              ]
+            ],
+            "history": [
+              [
+                2,
+                0
+              ]
+            ],
+            "sharp_ratio": 2.41558068926385,
+            "stopped_forecast": [
+              0.07621938497148203,
+              0.14938061448284404,
+              0.12884461502851793,
+              0.645555385517156
+            ]
+          },
+          {
+            "attaining_descendant": 0,
+            "attaining_endpoint_class": 3,
+            "full_forecasts": [
+              [
+                0.13572867187811818,
+                0.3773039023594109,
+                0.12612649806734505,
+                0.36084092769512577
+              ],
+              [
+                0.1261385270507362,
+                0.7750243043747859,
+                0.052506514650920835,
+                0.04633065392355711
+              ],
+              [
+                0.12642355101614516,
+                0.6227284851749336,
+                0.0786404489838548,
+                0.17220751482506627
+              ]
+            ],
+            "history": [
+              [
+                2,
+                1
+              ]
+            ],
+            "sharp_ratio": 2.4155806892638494,
+            "stopped_forecast": [
+              0.12884461502851796,
+              0.645555385517156,
+              0.07621938497148205,
+              0.14938061448284404
+            ]
+          }
+        ],
+        []
+      ],
+      "worst_excess_log_loss": 0.8819397092417492,
+      "worst_pathwise_probability_ratio": 2.41558068926385
+    },
+    "bayes_ratio_1.25": {
+      "attempts_saved_on_each_reference_path": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "reference_paths": 18,
+      "stops_by_guide": [
+        [],
+        []
+      ],
+      "worst_excess_log_loss": 0.0,
+      "worst_pathwise_probability_ratio": 1.0
+    },
+    "bayes_ratio_1.50": {
+      "attempts_saved_on_each_reference_path": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "reference_paths": 18,
+      "stops_by_guide": [
+        [],
+        []
+      ],
+      "worst_excess_log_loss": 0.0,
+      "worst_pathwise_probability_ratio": 1.0
+    },
+    "brier_minimax": {
+      "attempts_saved_on_each_reference_path": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "reference_paths": 18,
+      "stops_by_guide": [
+        [
+          {
+            "attaining_descendant": 1,
+            "attaining_endpoint_class": 0,
+            "full_forecasts": [
+              [
+                0.052506514650920835,
+                0.04633065392355711,
+                0.12613852705073614,
+                0.775024304374786
+              ],
+              [
+                0.1261264980673451,
+                0.3608409276951258,
+                0.1357286718781182,
+                0.3773039023594109
+              ],
+              [
+                0.0786404489838548,
+                0.1722075148250663,
+                0.12642355101614516,
+                0.6227284851749337
+              ]
+            ],
+            "history": [
+              [
+                2,
+                0
+              ]
+            ],
+            "sharp_ratio": 1.9104515300369913,
+            "stopped_forecast": [
+              0.06601920859248545,
+              0.30073363822026616,
+              0.07562138240325855,
+              0.5576257707839898
+            ]
+          },
+          {
+            "attaining_descendant": 0,
+            "attaining_endpoint_class": 2,
+            "full_forecasts": [
+              [
+                0.13572867187811818,
+                0.3773039023594109,
+                0.12612649806734505,
+                0.36084092769512577
+              ],
+              [
+                0.1261385270507362,
+                0.7750243043747859,
+                0.052506514650920835,
+                0.04633065392355711
+              ],
+              [
+                0.12642355101614516,
+                0.6227284851749336,
+                0.0786404489838548,
+                0.17220751482506627
+              ]
+            ],
+            "history": [
+              [
+                2,
+                1
+              ]
+            ],
+            "sharp_ratio": 1.9104515300369904,
+            "stopped_forecast": [
+              0.07562138240325858,
+              0.5576257707839898,
+              0.06601920859248545,
+              0.30073363822026616
+            ]
+          }
+        ],
+        []
+      ],
+      "worst_excess_log_loss": 0.6473396172804429,
+      "worst_pathwise_probability_ratio": 1.9104515300369913
+    },
+    "brier_minimax_ratio_1.25": {
+      "attempts_saved_on_each_reference_path": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "reference_paths": 18,
+      "stops_by_guide": [
+        [],
+        []
+      ],
+      "worst_excess_log_loss": 0.0,
+      "worst_pathwise_probability_ratio": 1.0
+    },
+    "brier_minimax_ratio_1.50": {
+      "attempts_saved_on_each_reference_path": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "reference_paths": 18,
+      "stops_by_guide": [
+        [],
+        []
+      ],
+      "worst_excess_log_loss": 0.0,
+      "worst_pathwise_probability_ratio": 1.0
+    },
+    "log_minimax": {
+      "attempts_saved_on_each_reference_path": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "reference_paths": 18,
+      "stops_by_guide": [
+        [
+          {
+            "attaining_descendant": 0,
+            "attaining_endpoint_class": 3,
+            "full_forecasts": [
+              [
+                0.052506514650920835,
+                0.04633065392355711,
+                0.12613852705073614,
+                0.775024304374786
+              ],
+              [
+                0.1261264980673451,
+                0.3608409276951258,
+                0.1357286718781182,
+                0.3773039023594109
+              ],
+              [
+                0.0786404489838548,
+                0.1722075148250663,
+                0.12642355101614516,
+                0.6227284851749337
+              ]
+            ],
+            "history": [
+              [
+                2,
+                0
+              ]
+            ],
+            "sharp_ratio": 1.3977204020153753,
+            "stopped_forecast": [
+              0.09023728771897664,
+              0.25816388397481266,
+              0.0971071694184408,
+              0.5544916588877699
+            ]
+          },
+          {
+            "attaining_descendant": 0,
+            "attaining_endpoint_class": 3,
+            "full_forecasts": [
+              [
+                0.13572867187811818,
+                0.3773039023594109,
+                0.12612649806734505,
+                0.36084092769512577
+              ],
+              [
+                0.1261385270507362,
+                0.7750243043747859,
+                0.052506514650920835,
+                0.04633065392355711
+              ],
+              [
+                0.12642355101614516,
+                0.6227284851749336,
+                0.0786404489838548,
+                0.17220751482506627
+              ]
+            ],
+            "history": [
+              [
+                2,
+                1
+              ]
+            ],
+            "sharp_ratio": 1.397720402015375,
+            "stopped_forecast": [
+              0.0971071694184408,
+              0.55449165888777,
+              0.09023728771897663,
+              0.25816388397481266
+            ]
+          }
+        ],
+        []
+      ],
+      "worst_excess_log_loss": 0.33484262525085307,
+      "worst_pathwise_probability_ratio": 1.3977204020153753
+    },
+    "log_minimax_ratio_1.25": {
+      "attempts_saved_on_each_reference_path": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "reference_paths": 18,
+      "stops_by_guide": [
+        [],
+        []
+      ],
+      "worst_excess_log_loss": 0.0,
+      "worst_pathwise_probability_ratio": 1.0
+    },
+    "log_minimax_ratio_1.50": {
+      "attempts_saved_on_each_reference_path": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "reference_paths": 18,
+      "stops_by_guide": [
+        [
+          {
+            "attaining_descendant": 0,
+            "attaining_endpoint_class": 3,
+            "full_forecasts": [
+              [
+                0.052506514650920835,
+                0.04633065392355711,
+                0.12613852705073614,
+                0.775024304374786
+              ],
+              [
+                0.1261264980673451,
+                0.3608409276951258,
+                0.1357286718781182,
+                0.3773039023594109
+              ],
+              [
+                0.0786404489838548,
+                0.1722075148250663,
+                0.12642355101614516,
+                0.6227284851749337
+              ]
+            ],
+            "history": [
+              [
+                2,
+                0
+              ]
+            ],
+            "sharp_ratio": 1.3977204020153753,
+            "stopped_forecast": [
+              0.09023728771897664,
+              0.25816388397481266,
+              0.0971071694184408,
+              0.5544916588877699
+            ]
+          },
+          {
+            "attaining_descendant": 0,
+            "attaining_endpoint_class": 3,
+            "full_forecasts": [
+              [
+                0.13572867187811818,
+                0.3773039023594109,
+                0.12612649806734505,
+                0.36084092769512577
+              ],
+              [
+                0.1261385270507362,
+                0.7750243043747859,
+                0.052506514650920835,
+                0.04633065392355711
+              ],
+              [
+                0.12642355101614516,
+                0.6227284851749336,
+                0.0786404489838548,
+                0.17220751482506627
+              ]
+            ],
+            "history": [
+              [
+                2,
+                1
+              ]
+            ],
+            "sharp_ratio": 1.397720402015375,
+            "stopped_forecast": [
+              0.0971071694184408,
+              0.55449165888777,
+              0.09023728771897663,
+              0.25816388397481266
+            ]
+          }
+        ],
+        []
+      ],
+      "worst_excess_log_loss": 0.33484262525085307,
+      "worst_pathwise_probability_ratio": 1.3977204020153753
+    },
+    "uniform": {
+      "attempts_saved_on_each_reference_path": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "reference_paths": 18,
+      "stops_by_guide": [
+        [
+          {
+            "attaining_descendant": 1,
+            "attaining_endpoint_class": 1,
+            "full_forecasts": [
+              [
+                0.052506514650920835,
+                0.04633065392355711,
+                0.12613852705073614,
+                0.775024304374786
+              ],
+              [
+                0.1261264980673451,
+                0.3608409276951258,
+                0.1357286718781182,
+                0.3773039023594109
+              ],
+              [
+                0.0786404489838548,
+                0.1722075148250663,
+                0.12642355101614516,
+                0.6227284851749337
+              ]
+            ],
+            "history": [
+              [
+                2,
+                0
+              ]
+            ],
+            "sharp_ratio": 1.8684187774980892,
+            "stopped_forecast": [
+              0.08575782056737358,
+              0.19312636548124976,
+              0.1294302499816665,
+              0.5916855639697102
+            ]
+          },
+          {
+            "attaining_descendant": 0,
+            "attaining_endpoint_class": 3,
+            "full_forecasts": [
+              [
+                0.13572867187811818,
+                0.3773039023594109,
+                0.12612649806734505,
+                0.36084092769512577
+              ],
+              [
+                0.1261385270507362,
+                0.7750243043747859,
+                0.052506514650920835,
+                0.04633065392355711
+              ],
+              [
+                0.12642355101614516,
+                0.6227284851749336,
+                0.0786404489838548,
+                0.17220751482506627
+              ]
+            ],
+            "history": [
+              [
+                2,
+                1
+              ]
+            ],
+            "sharp_ratio": 1.8684187774980892,
+            "stopped_forecast": [
+              0.1294302499816665,
+              0.5916855639697101,
+              0.08575782056737356,
+              0.19312636548124973
+            ]
+          }
+        ],
+        []
+      ],
+      "worst_excess_log_loss": 0.6250924996371092,
+      "worst_pathwise_probability_ratio": 1.8684187774980892
+    },
+    "uniform_ratio_1.25": {
+      "attempts_saved_on_each_reference_path": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "reference_paths": 18,
+      "stops_by_guide": [
+        [],
+        []
+      ],
+      "worst_excess_log_loss": 0.0,
+      "worst_pathwise_probability_ratio": 1.0
+    },
+    "uniform_ratio_1.50": {
+      "attempts_saved_on_each_reference_path": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "reference_paths": 18,
+      "stops_by_guide": [
+        [],
+        []
+      ],
+      "worst_excess_log_loss": 0.0,
+      "worst_pathwise_probability_ratio": 1.0
+    }
+  },
+  "primary": {
+    "baseline_worst_excess_log_loss": 0.6250924996371092,
+    "minimax_worst_excess_log_loss": 0.33484262525085307,
+    "passes": true,
+    "relative_reduction": 0.46433107828802556,
+    "strongest_baseline": "uniform"
+  },
+  "protocol_sha256": "f017a3f1dabe9547fa67dd88e3b808e7bfad5afd22905a9d572c4a24ea764931"
+}

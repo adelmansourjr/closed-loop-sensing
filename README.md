@@ -1,8 +1,8 @@
 # When can a rotating-signal classifier skip a measurement?
 
-**Start with the [latest experiment and proof](CONFIDENCE_REPORT.md).** Run the replays with Python 3.12 and the [pinned NumPy dependency](requirements.txt).
+**Start with the [log-loss experiment and proof](LOG_LOSS_REPORT.md).** Run the replays with Python 3.12 and the [pinned NumPy dependency](requirements.txt).
 
-A paper-linked, observation-only project for Petra Fischer, Alexander Harris and Ehsan Jafari's Bristol PhD on brain-activity-based vibrotactile stimulation. The computational problem is whether a noisy rotating signal needs another observation to classify its terminal sector. The simulation uses a 32-state synthetic signal. Measurement selection changes the information available to the classifier and leaves the signal dynamics independent of every decision. [Research and advert notes](PAPER_NOTES.md).
+A paper-linked, observation-only project for Petra Fischer, Anthony Harris and Ehsan Jafari's Bristol PhD on brain-activity-based vibrotactile stimulation. The computational problem is whether a noisy rotating signal needs another observation to classify its terminal sector. The simulation uses a 32-state synthetic signal. Measurement selection changes the information available to the classifier and leaves the signal dynamics independent of every decision. [Research and advert notes](PAPER_NOTES.md).
 
 ## Results
 
@@ -36,6 +36,8 @@ The matched-mean comparator chooses optimal 0-, 1- and 2-read schedules for each
 ## Follow-up on probability quality
 
 A minimax replacement reduced the sharp worst-case excess Brier loss from **.57749 to .22478** at the identical stopping frontier. The result preserves every class and the full 17.54% nominal reading reduction. The nominal Bayes replacement still scores better on average. [Confidence certificate and replay](CONFIDENCE_REPORT.md).
+
+A later log-loss comparison reduced the sharp excess from **0.62509 to 0.33484 nats** against the best Brier, uniform or Bayes replacement on the same frontier. It retained the **17.54%** nominal reading saving and matched every reference class across **65,536** paired synthetic windows under eight scoring laws. The same-budget precommitted comparator had lower average nominal log loss. [Log-loss certificate and replay](LOG_LOSS_REPORT.md)
 
 ## Reproduce
 
